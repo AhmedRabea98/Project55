@@ -1,0 +1,301 @@
+info: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[63]
+      User profile is available. Using 'C:\Users\Ahmed El Gendy\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+info: Microsoft.Hosting.Lifetime[14]
+      Now listening on: http://127.0.0.1:40501
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Development
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: D:\My Work\0We\We Pay Offers\We Pay Offer\WePay-Daily\WePayOffer.Portal\
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost:44382/Wallet/Search - -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'WePayOffer.Portal.Controllers.WalletController.Search (WePayOffer.Portal)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[3]
+      Route matched with {action = "Search", controller = "Wallet"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Search() on controller WePayOffer.Portal.Controllers.WalletController (WePayOffer.Portal).
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[1]
+      Executing ViewResult, running view Search.
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 6.0.9 initialized 'ApplicationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.9' with options: None
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[4]
+      Executed ViewResult - view Search executed in 523.0003ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[2]
+      Executed action WePayOffer.Portal.Controllers.WalletController.Search (WePayOffer.Portal) in 653.1811ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'WePayOffer.Portal.Controllers.WalletController.Search (WePayOffer.Portal)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost:44382/Wallet/Search - - - 200 - text/html;+charset=utf-8 707.1461ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost:44382/_framework/aspnetcore-browser-refresh.js - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost:44382/_framework/aspnetcore-browser-refresh.js - - - 200 12004 application/javascript;+charset=utf-8 1.1782ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost:44382/_vs/browserLink - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost:44382/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 9.7256ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://localhost:44382/Wallet/Filter application/x-www-form-urlencoded;+charset=UTF-8 1467
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[3]
+      Route matched with {action = "Filter", controller = "Wallet"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Filter(WePayOffer.BL.Models.FilterVM) on controller WePayOffer.Portal.Controllers.WalletController (WePayOffer.Portal).
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 6.0.9 initialized 'ApplicationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.9' with options: None
+Security Warning: The negotiated TLS 1.0 is an insecure protocol and is supported for backward compatibility only. The recommended protocol version is TLS 1.2 and later.
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (23ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+      SELECT [t].[Id], [t].[CreationDate], [t].[FunctionId], [t].[IsSucceed], [t].[RequestId], [t].[ResponseMessage], [t].[ServiceNumberId], [s0].[Id], [s0].[CreationDate], [s0].[Number], [s0].[OfferId], [s0].[StatusId]
+      FROM (
+          SELECT [s].[Id], [s].[CreationDate], [s].[FunctionId], [s].[IsSucceed], [s].[RequestId], [s].[ResponseMessage], [s].[ServiceNumberId]
+          FROM [ServiceTransaction] AS [s]
+          ORDER BY [s].[Id]
+          OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+      ) AS [t]
+      INNER JOIN [ServiceNumber] AS [s0] ON [t].[ServiceNumberId] = [s0].[Id]
+      ORDER BY [t].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT COUNT(*)
+      FROM [ServiceTransaction] AS [s]
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[WePayOffer.DAL.Entity.ServiceTransaction, WePayOffer.DAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[2]
+      Executed action WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal) in 738.5809ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST http://localhost:44382/Wallet/Filter application/x-www-form-urlencoded;+charset=UTF-8 1467 - 200 - application/json;+charset=utf-8 749.7027ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost:44382/Home/Index - -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'WePayOffer.Portal.Controllers.HomeController.Index (WePayOffer.Portal)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[3]
+      Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WePayOffer.Portal.Controllers.HomeController (WePayOffer.Portal).
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[1]
+      Executing ViewResult, running view Index.
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 6.0.9 initialized 'ApplicationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.9' with options: None
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (10ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT COUNT(*)
+      FROM [ServiceNumber] AS [s]
+      WHERE [s].[StatusId] = 1
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT COUNT(*)
+      FROM [ServiceNumber] AS [s]
+      WHERE [s].[StatusId] = 4
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT COUNT(*)
+      FROM [ServiceNumber] AS [s]
+      WHERE [s].[StatusId] = 3
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT COUNT(*)
+      FROM [ServiceNumber] AS [s]
+      WHERE [s].[StatusId] = 2
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT COUNT(*)
+      FROM [ServiceNumber] AS [s]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [s].[Id], [s].[CreationDate], [s].[Number], [s].[OfferId], [s].[StatusId]
+      FROM [ServiceNumber] AS [s]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (16ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [s].[Id], [s].[CreationDate], [s].[Number], [s].[OfferId], [s].[StatusId]
+      FROM [ServiceNumber] AS [s]
+      WHERE (DATEPART(year, [s].[CreationDate]) = DATEPART(year, GETDATE())) AND (DATEPART(month, [s].[CreationDate]) = 1)
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (17ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [s].[Id], [s].[CreationDate], [s].[Number], [s].[OfferId], [s].[StatusId]
+      FROM [ServiceNumber] AS [s]
+      WHERE (DATEPART(year, [s].[CreationDate]) = DATEPART(year, GETDATE())) AND (DATEPART(month, [s].[CreationDate]) = 2)
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (16ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [s].[Id], [s].[CreationDate], [s].[Number], [s].[OfferId], [s].[StatusId]
+      FROM [ServiceNumber] AS [s]
+      WHERE (DATEPART(year, [s].[CreationDate]) = DATEPART(year, GETDATE())) AND (DATEPART(month, [s].[CreationDate]) = 3)
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (10ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [s].[Id], [s].[CreationDate], [s].[Number], [s].[OfferId], [s].[StatusId]
+      FROM [ServiceNumber] AS [s]
+      WHERE (DATEPART(year, [s].[CreationDate]) = DATEPART(year, GETDATE())) AND (DATEPART(month, [s].[CreationDate]) = 4)
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (10ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [s].[Id], [s].[CreationDate], [s].[Number], [s].[OfferId], [s].[StatusId]
+      FROM [ServiceNumber] AS [s]
+      WHERE (DATEPART(year, [s].[CreationDate]) = DATEPART(year, GETDATE())) AND (DATEPART(month, [s].[CreationDate]) = 5)
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (14ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [s].[Id], [s].[CreationDate], [s].[Number], [s].[OfferId], [s].[StatusId]
+      FROM [ServiceNumber] AS [s]
+      WHERE (DATEPART(year, [s].[CreationDate]) = DATEPART(year, GETDATE())) AND (DATEPART(month, [s].[CreationDate]) = 6)
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (10ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [s].[Id], [s].[CreationDate], [s].[Number], [s].[OfferId], [s].[StatusId]
+      FROM [ServiceNumber] AS [s]
+      WHERE (DATEPART(year, [s].[CreationDate]) = DATEPART(year, GETDATE())) AND (DATEPART(month, [s].[CreationDate]) = 7)
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (10ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [s].[Id], [s].[CreationDate], [s].[Number], [s].[OfferId], [s].[StatusId]
+      FROM [ServiceNumber] AS [s]
+      WHERE (DATEPART(year, [s].[CreationDate]) = DATEPART(year, GETDATE())) AND (DATEPART(month, [s].[CreationDate]) = 8)
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (11ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [s].[Id], [s].[CreationDate], [s].[Number], [s].[OfferId], [s].[StatusId]
+      FROM [ServiceNumber] AS [s]
+      WHERE (DATEPART(year, [s].[CreationDate]) = DATEPART(year, GETDATE())) AND (DATEPART(month, [s].[CreationDate]) = 9)
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (11ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [s].[Id], [s].[CreationDate], [s].[Number], [s].[OfferId], [s].[StatusId]
+      FROM [ServiceNumber] AS [s]
+      WHERE (DATEPART(year, [s].[CreationDate]) = DATEPART(year, GETDATE())) AND (DATEPART(month, [s].[CreationDate]) = 10)
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [s].[Id], [s].[CreationDate], [s].[Number], [s].[OfferId], [s].[StatusId]
+      FROM [ServiceNumber] AS [s]
+      WHERE (DATEPART(year, [s].[CreationDate]) = DATEPART(year, GETDATE())) AND (DATEPART(month, [s].[CreationDate]) = 11)
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (12ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [s].[Id], [s].[CreationDate], [s].[Number], [s].[OfferId], [s].[StatusId]
+      FROM [ServiceNumber] AS [s]
+      WHERE (DATEPART(year, [s].[CreationDate]) = DATEPART(year, GETDATE())) AND (DATEPART(month, [s].[CreationDate]) = 12)
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[4]
+      Executed ViewResult - view Index executed in 827.6825ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[2]
+      Executed action WePayOffer.Portal.Controllers.HomeController.Index (WePayOffer.Portal) in 828.0904ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'WePayOffer.Portal.Controllers.HomeController.Index (WePayOffer.Portal)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost:44382/Home/Index - - - 200 - text/html;+charset=utf-8 832.3331ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost:44382/_framework/aspnetcore-browser-refresh.js - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost:44382/_framework/aspnetcore-browser-refresh.js - - - 200 12004 application/javascript;+charset=utf-8 0.3208ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost:44382/_vs/browserLink - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost:44382/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 2.9490ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost:44382/Bulk/UploadBulk - -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'WePayOffer.Portal.Controllers.BulkController.UploadBulk (WePayOffer.Portal)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[3]
+      Route matched with {action = "UploadBulk", controller = "Bulk"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UploadBulk() on controller WePayOffer.Portal.Controllers.BulkController (WePayOffer.Portal).
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[1]
+      Executing ViewResult, running view UploadBulk.
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 6.0.9 initialized 'ApplicationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.9' with options: None
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[4]
+      Executed ViewResult - view UploadBulk executed in 11.0927ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[2]
+      Executed action WePayOffer.Portal.Controllers.BulkController.UploadBulk (WePayOffer.Portal) in 15.2182ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'WePayOffer.Portal.Controllers.BulkController.UploadBulk (WePayOffer.Portal)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost:44382/Bulk/UploadBulk - - - 200 - text/html;+charset=utf-8 22.4304ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost:44382/fancy_fileupload.css - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost:44382/jquery.ui.widget.js - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost:44382/jquery.fileupload.js - -
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/fancy_fileupload.css'. Physical path: 'D:\My Work\0We\We Pay Offers\We Pay Offer\WePay-Daily\WePayOffer.Portal\wwwroot\fancy_fileupload.css'
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/jquery.ui.widget.js'. Physical path: 'D:\My Work\0We\We Pay Offers\We Pay Offer\WePay-Daily\WePayOffer.Portal\wwwroot\jquery.ui.widget.js'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost:44382/jquery.fancy-fileupload.js - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost:44382/fancy_fileupload.css - - - 200 14351 text/css 6.2770ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost:44382/jquery.ui.widget.js - - - 200 23547 application/javascript 4.6100ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost:44382/jquery.iframe-transport.js - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost:44382/_framework/aspnetcore-browser-refresh.js - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost:44382/_framework/aspnetcore-browser-refresh.js - - - 200 12004 application/javascript;+charset=utf-8 0.0420ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost:44382/_vs/browserLink - -
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/jquery.iframe-transport.js'. Physical path: 'D:\My Work\0We\We Pay Offers\We Pay Offer\WePay-Daily\WePayOffer.Portal\wwwroot\jquery.iframe-transport.js'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost:44382/jquery.iframe-transport.js - - - 200 8553 application/javascript 1.0839ms
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/jquery.fancy-fileupload.js'. Physical path: 'D:\My Work\0We\We Pay Offers\We Pay Offer\WePay-Daily\WePayOffer.Portal\wwwroot\jquery.fancy-fileupload.js'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost:44382/jquery.fancy-fileupload.js - - - 200 27666 application/javascript 1.2376ms
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/jquery.fileupload.js'. Physical path: 'D:\My Work\0We\We Pay Offers\We Pay Offer\WePay-Daily\WePayOffer.Portal\wwwroot\jquery.fileupload.js'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost:44382/jquery.fileupload.js - - - 200 56110 application/javascript 2.1352ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost:44382/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 2.9789ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost:44382/fancy_upload.png - -
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/fancy_upload.png'. Physical path: 'D:\My Work\0We\We Pay Offers\We Pay Offer\WePay-Daily\WePayOffer.Portal\wwwroot\fancy_upload.png'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost:44382/fancy_upload.png - - - 200 3364 image/png 1.7083ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost:44382/Wallet/Search - -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'WePayOffer.Portal.Controllers.WalletController.Search (WePayOffer.Portal)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[3]
+      Route matched with {action = "Search", controller = "Wallet"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Search() on controller WePayOffer.Portal.Controllers.WalletController (WePayOffer.Portal).
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[1]
+      Executing ViewResult, running view Search.
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 6.0.9 initialized 'ApplicationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.9' with options: None
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[4]
+      Executed ViewResult - view Search executed in 4.3142ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[2]
+      Executed action WePayOffer.Portal.Controllers.WalletController.Search (WePayOffer.Portal) in 4.6014ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'WePayOffer.Portal.Controllers.WalletController.Search (WePayOffer.Portal)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost:44382/Wallet/Search - - - 200 - text/html;+charset=utf-8 6.7821ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost:44382/_framework/aspnetcore-browser-refresh.js - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost:44382/_framework/aspnetcore-browser-refresh.js - - - 200 12004 application/javascript;+charset=utf-8 0.0766ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost:44382/_vs/browserLink - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost:44382/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 3.3832ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://localhost:44382/Wallet/Filter application/x-www-form-urlencoded;+charset=UTF-8 1467
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[3]
+      Route matched with {action = "Filter", controller = "Wallet"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Filter(WePayOffer.BL.Models.FilterVM) on controller WePayOffer.Portal.Controllers.WalletController (WePayOffer.Portal).
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 6.0.9 initialized 'ApplicationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.9' with options: None
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+      SELECT [t].[Id], [t].[CreationDate], [t].[FunctionId], [t].[IsSucceed], [t].[RequestId], [t].[ResponseMessage], [t].[ServiceNumberId], [s0].[Id], [s0].[CreationDate], [s0].[Number], [s0].[OfferId], [s0].[StatusId]
+      FROM (
+          SELECT [s].[Id], [s].[CreationDate], [s].[FunctionId], [s].[IsSucceed], [s].[RequestId], [s].[ResponseMessage], [s].[ServiceNumberId]
+          FROM [ServiceTransaction] AS [s]
+          ORDER BY [s].[Id]
+          OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+      ) AS [t]
+      INNER JOIN [ServiceNumber] AS [s0] ON [t].[ServiceNumberId] = [s0].[Id]
+      ORDER BY [t].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT COUNT(*)
+      FROM [ServiceTransaction] AS [s]
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[WePayOffer.DAL.Entity.ServiceTransaction, WePayOffer.DAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[2]
+      Executed action WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal) in 6.9963ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST http://localhost:44382/Wallet/Filter application/x-www-form-urlencoded;+charset=UTF-8 1467 - 200 - application/json;+charset=utf-8 7.2925ms

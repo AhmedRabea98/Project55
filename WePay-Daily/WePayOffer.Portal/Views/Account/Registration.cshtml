@@ -1,0 +1,29 @@
+﻿
+
+
+@{
+    ViewData["Title"] = "Registration";
+}
+
+
+
+
+<main id="main" class="main">
+
+    <!-- Bread Crumb -->
+    @await Html.PartialAsync("~/Views/Partials/Account/Registration/BreadCrumb.cshtml")
+
+
+    <!-- Form -->
+    @await Html.PartialAsync("~/Views/Partials/Account/Registration/Form.cshtml")
+
+</main>
+
+
+@section JqueryValidation{
+
+    <script src="~/jquery-validate/jquery.validate.min.js"></script>
+    <script src="~/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+    @*<script src="~/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>*@
+}
+

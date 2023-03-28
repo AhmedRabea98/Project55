@@ -1,0 +1,19 @@
+﻿<div class="col-xxl-4 col-xl-12">
+    <div class="card info-card revenue-card">
+        <div class="card-body">
+            <h5 class="card-title">Total Offers <span>| All Time</span></h5>
+            <div class="d-flex align-items-center">
+                <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
+                    <i class="bi bi-server"></i>
+                </div>
+                <div class="ps-3">
+                    @{
+                        var January = await serviceNumbers.GetAsync(a => a.Id != null);
+                        <h6>@January.Select(a => a.OfferId).Distinct().Count()</h6>
+                    }
+                    @*<span class="text-success small pt-1 fw-bold">100%</span> <span class="text-muted small pt-2 ps-1">decrease</span>*@
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

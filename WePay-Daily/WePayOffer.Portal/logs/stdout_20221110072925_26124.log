@@ -1,0 +1,113 @@
+info: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[63]
+      User profile is available. Using 'C:\Users\Ahmed El Gendy\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Development
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: D:\My Work\0We\We Pay Offers\We Pay Offer\WePay-Daily\WePayOffer.Portal\
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST https://localhost:44382/Users/Filter application/x-www-form-urlencoded;+charset=UTF-8 1433
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 GET https://localhost:44382/Users/Index - -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'WePayOffer.Portal.Controllers.UsersController.Filter (WePayOffer.Portal)'
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'WePayOffer.Portal.Controllers.UsersController.Index (WePayOffer.Portal)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[3]
+      Route matched with {action = "Index", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WePayOffer.Portal.Controllers.UsersController (WePayOffer.Portal).
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[3]
+      Route matched with {action = "Filter", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Filter(WePayOffer.BL.Models.FilterVM) on controller WePayOffer.Portal.Controllers.UsersController (WePayOffer.Portal).
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[1]
+      Executing ViewResult, running view Index.
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 6.0.9 initialized 'ApplicationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.9' with options: None
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 6.0.9 initialized 'ApplicationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.9' with options: None
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[4]
+      Executed ViewResult - view Index executed in 594.6911ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[2]
+      Executed action WePayOffer.Portal.Controllers.UsersController.Index (WePayOffer.Portal) in 662.8301ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'WePayOffer.Portal.Controllers.UsersController.Index (WePayOffer.Portal)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 GET https://localhost:44382/Users/Index - - - 200 - text/html;+charset=utf-8 803.3218ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 GET https://localhost:44382/lib/UsersDatatable.js - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 GET https://localhost:44382/_framework/aspnetcore-browser-refresh.js - -
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[6]
+      The file /lib/UsersDatatable.js was not modified
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 GET https://localhost:44382/_vs/browserLink - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 GET https://localhost:44382/_framework/aspnetcore-browser-refresh.js - - - 200 12004 application/javascript;+charset=utf-8 4.1304ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 GET https://localhost:44382/lib/UsersDatatable.js - - - 304 - application/javascript 6.8129ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 GET https://localhost:44382/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 24.5906ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST https://localhost:44382/Users/Filter application/x-www-form-urlencoded;+charset=UTF-8 1433
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'WePayOffer.Portal.Controllers.UsersController.Filter (WePayOffer.Portal)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[3]
+      Route matched with {action = "Filter", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Filter(WePayOffer.BL.Models.FilterVM) on controller WePayOffer.Portal.Controllers.UsersController (WePayOffer.Portal).
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 6.0.9 initialized 'ApplicationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.9' with options: None
+Security Warning: The negotiated TLS 1.0 is an insecure protocol and is supported for backward compatibility only. The recommended protocol version is TLS 1.2 and later.
+Security Warning: The negotiated TLS 1.0 is an insecure protocol and is supported for backward compatibility only. The recommended protocol version is TLS 1.2 and later.
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (23ms) [Parameters=[@__searchValue_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+      SELECT [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[CreatedBy], [a].[CreatedOn], [a].[Email], [a].[EmailConfirmed], [a].[FullName], [a].[IsDeleted], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a0].[Id], [a0].[AccessFailedCount], [a0].[ConcurrencyStamp], [a0].[CreatedBy], [a0].[CreatedOn], [a0].[Email], [a0].[EmailConfirmed], [a0].[FullName], [a0].[IsDeleted], [a0].[LockoutEnabled], [a0].[LockoutEnd], [a0].[NormalizedEmail], [a0].[NormalizedUserName], [a0].[PasswordHash], [a0].[PhoneNumber], [a0].[PhoneNumberConfirmed], [a0].[SecurityStamp], [a0].[TwoFactorEnabled], [a0].[UserName]
+      FROM [AspNetUsers] AS [a]
+      LEFT JOIN [AspNetUsers] AS [a0] ON [a].[CreatedBy] = [a0].[Id]
+      WHERE (((@__searchValue_0 LIKE N'') OR (CHARINDEX(@__searchValue_0, [a].[UserName]) > 0)) OR ((@__searchValue_0 LIKE N'') OR (CHARINDEX(@__searchValue_0, [a].[FullName]) > 0))) AND ([a].[IsDeleted] = CAST(0 AS bit))
+      ORDER BY [a].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (22ms) [Parameters=[@__searchValue_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+      SELECT [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[CreatedBy], [a].[CreatedOn], [a].[Email], [a].[EmailConfirmed], [a].[FullName], [a].[IsDeleted], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a0].[Id], [a0].[AccessFailedCount], [a0].[ConcurrencyStamp], [a0].[CreatedBy], [a0].[CreatedOn], [a0].[Email], [a0].[EmailConfirmed], [a0].[FullName], [a0].[IsDeleted], [a0].[LockoutEnabled], [a0].[LockoutEnd], [a0].[NormalizedEmail], [a0].[NormalizedUserName], [a0].[PasswordHash], [a0].[PhoneNumber], [a0].[PhoneNumberConfirmed], [a0].[SecurityStamp], [a0].[TwoFactorEnabled], [a0].[UserName]
+      FROM [AspNetUsers] AS [a]
+      LEFT JOIN [AspNetUsers] AS [a0] ON [a].[CreatedBy] = [a0].[Id]
+      WHERE (((@__searchValue_0 LIKE N'') OR (CHARINDEX(@__searchValue_0, [a].[UserName]) > 0)) OR ((@__searchValue_0 LIKE N'') OR (CHARINDEX(@__searchValue_0, [a].[FullName]) > 0))) AND ([a].[IsDeleted] = CAST(0 AS bit))
+      ORDER BY [a].[Id]
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Linq.IOrderedEnumerable`1[[WePayOffer.BL.Models.ApplicationUserVM, WePayOffer.BL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Linq, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]]'.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Linq.IOrderedEnumerable`1[[WePayOffer.BL.Models.ApplicationUserVM, WePayOffer.BL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Linq, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]]'.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[2]
+      Executed action WePayOffer.Portal.Controllers.UsersController.Filter (WePayOffer.Portal) in 392.6728ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'WePayOffer.Portal.Controllers.UsersController.Filter (WePayOffer.Portal)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[2]
+      Executed action WePayOffer.Portal.Controllers.UsersController.Filter (WePayOffer.Portal) in 1323.0935ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'WePayOffer.Portal.Controllers.UsersController.Filter (WePayOffer.Portal)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST https://localhost:44382/Users/Filter application/x-www-form-urlencoded;+charset=UTF-8 1433 - 200 - application/json;+charset=utf-8 401.6500ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST https://localhost:44382/Users/Filter application/x-www-form-urlencoded;+charset=UTF-8 1433 - 0 - application/json;+charset=utf-8 1451.0954ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 GET https://localhost:44382/Users/Index - -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'WePayOffer.Portal.Controllers.UsersController.Index (WePayOffer.Portal)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[3]
+      Route matched with {action = "Index", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WePayOffer.Portal.Controllers.UsersController (WePayOffer.Portal).
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[1]
+      Executing ViewResult, running view Index.
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 6.0.9 initialized 'ApplicationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.9' with options: None
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[4]
+      Executed ViewResult - view Index executed in 5.1865ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[2]
+      Executed action WePayOffer.Portal.Controllers.UsersController.Index (WePayOffer.Portal) in 5.4734ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'WePayOffer.Portal.Controllers.UsersController.Index (WePayOffer.Portal)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 GET https://localhost:44382/Users/Index - - - 200 - text/html;+charset=utf-8 8.6846ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 GET https://localhost:44382/lib/UsersDatatable.js - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 GET https://localhost:44382/_framework/aspnetcore-browser-refresh.js - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 GET https://localhost:44382/_framework/aspnetcore-browser-refresh.js - - - 200 12004 application/javascript;+charset=utf-8 0.7305ms
+info: Microsoft.AspNetCo

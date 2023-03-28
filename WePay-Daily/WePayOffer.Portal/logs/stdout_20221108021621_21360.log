@@ -1,0 +1,1871 @@
+info: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[63]
+      User profile is available. Using 'C:\Users\Ahmed El Gendy\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+info: Microsoft.Hosting.Lifetime[14]
+      Now listening on: http://127.0.0.1:17801
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Development
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: D:\My Work\0We\We Pay Offers\We Pay Offer\WePay-Daily\WePayOffer.Portal\
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost:44382/ - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 DEBUG http://localhost:55098/ - 0
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 DEBUG http://localhost:55098/ - 0 - 200 0 - 26.0284ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'WePayOffer.Portal.Controllers.AccountController.Login (WePayOffer.Portal)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[3]
+      Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller WePayOffer.Portal.Controllers.AccountController (WePayOffer.Portal).
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[1]
+      Executing action method WePayOffer.Portal.Controllers.AccountController.Login (WePayOffer.Portal) - Validation state: Valid
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[2]
+      Executed action method WePayOffer.Portal.Controllers.AccountController.Login (WePayOffer.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.6634ms.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[1]
+      Executing ViewResult, running view Login.
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 6.0.9 initialized 'ApplicationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.9' with options: None
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[4]
+      Executed ViewResult - view Login executed in 882.9834ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[2]
+      Executed action WePayOffer.Portal.Controllers.AccountController.Login (WePayOffer.Portal) in 948.948ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'WePayOffer.Portal.Controllers.AccountController.Login (WePayOffer.Portal)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost:44382/ - - - 200 - text/html;+charset=utf-8 1065.3158ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost:44382/images/bg-login.svg - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost:44382/images/bg-login.svg - - - 404 0 - 3.5853ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost:44382/fonts/Poppins.woff - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost:44382/fonts/Poppins.woff - - - 404 0 - 1.4046ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost:44382/fonts/Poppins.ttf - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost:44382/fonts/Poppins.ttf - - - 404 0 - 2.2374ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://localhost:44382/Home/Index application/x-www-form-urlencoded 182
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'WePayOffer.Portal.Controllers.HomeController.Index (WePayOffer.Portal)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[3]
+      Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WePayOffer.Portal.Controllers.HomeController (WePayOffer.Portal).
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[1]
+      Executing action method WePayOffer.Portal.Controllers.HomeController.Index (WePayOffer.Portal) - Validation state: Valid
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[2]
+      Executed action method WePayOffer.Portal.Controllers.HomeController.Index (WePayOffer.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.1764ms.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[1]
+      Executing ViewResult, running view Index.
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 6.0.9 initialized 'ApplicationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.9' with options: None
+Security Warning: The negotiated TLS 1.0 is an insecure protocol and is supported for backward compatibility only. The recommended protocol version is TLS 1.2 and later.
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (38ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT COUNT(*)
+      FROM [ServiceNumber] AS [s]
+      WHERE [s].[StatusId] = 1
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT COUNT(*)
+      FROM [ServiceNumber] AS [s]
+      WHERE [s].[StatusId] = 4
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT COUNT(*)
+      FROM [ServiceNumber] AS [s]
+      WHERE [s].[StatusId] = 3
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT COUNT(*)
+      FROM [ServiceNumber] AS [s]
+      WHERE [s].[StatusId] = 2
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT COUNT(*)
+      FROM [ServiceNumber] AS [s]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [s].[Id], [s].[CreationDate], [s].[Number], [s].[OfferId], [s].[StatusId]
+      FROM [ServiceNumber] AS [s]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (13ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [s].[Id], [s].[CreationDate], [s].[Number], [s].[OfferId], [s].[StatusId]
+      FROM [ServiceNumber] AS [s]
+      WHERE (DATEPART(year, [s].[CreationDate]) = DATEPART(year, GETDATE())) AND (DATEPART(month, [s].[CreationDate]) = 1)
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (10ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [s].[Id], [s].[CreationDate], [s].[Number], [s].[OfferId], [s].[StatusId]
+      FROM [ServiceNumber] AS [s]
+      WHERE (DATEPART(year, [s].[CreationDate]) = DATEPART(year, GETDATE())) AND (DATEPART(month, [s].[CreationDate]) = 2)
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (11ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [s].[Id], [s].[CreationDate], [s].[Number], [s].[OfferId], [s].[StatusId]
+      FROM [ServiceNumber] AS [s]
+      WHERE (DATEPART(year, [s].[CreationDate]) = DATEPART(year, GETDATE())) AND (DATEPART(month, [s].[CreationDate]) = 3)
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (10ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [s].[Id], [s].[CreationDate], [s].[Number], [s].[OfferId], [s].[StatusId]
+      FROM [ServiceNumber] AS [s]
+      WHERE (DATEPART(year, [s].[CreationDate]) = DATEPART(year, GETDATE())) AND (DATEPART(month, [s].[CreationDate]) = 4)
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (10ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [s].[Id], [s].[CreationDate], [s].[Number], [s].[OfferId], [s].[StatusId]
+      FROM [ServiceNumber] AS [s]
+      WHERE (DATEPART(year, [s].[CreationDate]) = DATEPART(year, GETDATE())) AND (DATEPART(month, [s].[CreationDate]) = 5)
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (10ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [s].[Id], [s].[CreationDate], [s].[Number], [s].[OfferId], [s].[StatusId]
+      FROM [ServiceNumber] AS [s]
+      WHERE (DATEPART(year, [s].[CreationDate]) = DATEPART(year, GETDATE())) AND (DATEPART(month, [s].[CreationDate]) = 6)
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (11ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [s].[Id], [s].[CreationDate], [s].[Number], [s].[OfferId], [s].[StatusId]
+      FROM [ServiceNumber] AS [s]
+      WHERE (DATEPART(year, [s].[CreationDate]) = DATEPART(year, GETDATE())) AND (DATEPART(month, [s].[CreationDate]) = 7)
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (11ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [s].[Id], [s].[CreationDate], [s].[Number], [s].[OfferId], [s].[StatusId]
+      FROM [ServiceNumber] AS [s]
+      WHERE (DATEPART(year, [s].[CreationDate]) = DATEPART(year, GETDATE())) AND (DATEPART(month, [s].[CreationDate]) = 8)
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (10ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [s].[Id], [s].[CreationDate], [s].[Number], [s].[OfferId], [s].[StatusId]
+      FROM [ServiceNumber] AS [s]
+      WHERE (DATEPART(year, [s].[CreationDate]) = DATEPART(year, GETDATE())) AND (DATEPART(month, [s].[CreationDate]) = 9)
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (10ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [s].[Id], [s].[CreationDate], [s].[Number], [s].[OfferId], [s].[StatusId]
+      FROM [ServiceNumber] AS [s]
+      WHERE (DATEPART(year, [s].[CreationDate]) = DATEPART(year, GETDATE())) AND (DATEPART(month, [s].[CreationDate]) = 10)
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [s].[Id], [s].[CreationDate], [s].[Number], [s].[OfferId], [s].[StatusId]
+      FROM [ServiceNumber] AS [s]
+      WHERE (DATEPART(year, [s].[CreationDate]) = DATEPART(year, GETDATE())) AND (DATEPART(month, [s].[CreationDate]) = 11)
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (10ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [s].[Id], [s].[CreationDate], [s].[Number], [s].[OfferId], [s].[StatusId]
+      FROM [ServiceNumber] AS [s]
+      WHERE (DATEPART(year, [s].[CreationDate]) = DATEPART(year, GETDATE())) AND (DATEPART(month, [s].[CreationDate]) = 12)
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[4]
+      Executed ViewResult - view Index executed in 1375.5402ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[2]
+      Executed action WePayOffer.Portal.Controllers.HomeController.Index (WePayOffer.Portal) in 1386.9045ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'WePayOffer.Portal.Controllers.HomeController.Index (WePayOffer.Portal)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST http://localhost:44382/Home/Index application/x-www-form-urlencoded 182 - 200 - text/html;+charset=utf-8 1396.8766ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost:44382/_framework/aspnetcore-browser-refresh.js - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost:44382/_vs/browserLink - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost:44382/_framework/aspnetcore-browser-refresh.js - - - 200 12004 application/javascript;+charset=utf-8 5.3557ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost:44382/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 21.9838ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost:44382/Wallet/Search - -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'WePayOffer.Portal.Controllers.WalletController.Search (WePayOffer.Portal)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[3]
+      Route matched with {action = "Search", controller = "Wallet"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Search() on controller WePayOffer.Portal.Controllers.WalletController (WePayOffer.Portal).
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[1]
+      Executing action method WePayOffer.Portal.Controllers.WalletController.Search (WePayOffer.Portal) - Validation state: Valid
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[2]
+      Executed action method WePayOffer.Portal.Controllers.WalletController.Search (WePayOffer.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.1187ms.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[1]
+      Executing ViewResult, running view Search.
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 6.0.9 initialized 'ApplicationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.9' with options: None
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[4]
+      Executed ViewResult - view Search executed in 19.9883ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[2]
+      Executed action WePayOffer.Portal.Controllers.WalletController.Search (WePayOffer.Portal) in 102.1422ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'WePayOffer.Portal.Controllers.WalletController.Search (WePayOffer.Portal)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost:44382/Wallet/Search - - - 200 - text/html;+charset=utf-8 111.5463ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost:44382/lib/WelletNumberDatatable.js - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost:44382/_framework/aspnetcore-browser-refresh.js - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost:44382/_framework/aspnetcore-browser-refresh.js - - - 200 12004 application/javascript;+charset=utf-8 1.1375ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost:44382/_vs/browserLink - -
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost:44382/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 14.4267ms
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/lib/WelletNumberDatatable.js'. Physical path: 'D:\My Work\0We\We Pay Offers\We Pay Offer\WePay-Daily\WePayOffer.Portal\wwwroot\lib\WelletNumberDatatable.js'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost:44382/lib/WelletNumberDatatable.js - - - 200 2493 application/javascript 32.9396ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://localhost:44382/Wallet/Filter application/x-www-form-urlencoded;+charset=UTF-8 1513
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[3]
+      Route matched with {action = "Filter", controller = "Wallet"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Filter(WePayOffer.BL.Models.FilterVM) on controller WePayOffer.Portal.Controllers.WalletController (WePayOffer.Portal).
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[1]
+      Executing action method WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal) - Validation state: Invalid
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 6.0.9 initialized 'ApplicationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.9' with options: None
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (25ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+      SELECT [t].[Id], [t].[CreationDate], [t].[FunctionId], [t].[IsSucceed], [t].[RequestId], [t].[ResponseMessage], [t].[ServiceNumberId], [s0].[Id], [s0].[CreationDate], [s0].[Number], [s0].[OfferId], [s0].[StatusId]
+      FROM (
+          SELECT [s].[Id], [s].[CreationDate], [s].[FunctionId], [s].[IsSucceed], [s].[RequestId], [s].[ResponseMessage], [s].[ServiceNumberId]
+          FROM [ServiceTransaction] AS [s]
+          ORDER BY [s].[Id]
+          OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+      ) AS [t]
+      INNER JOIN [ServiceNumber] AS [s0] ON [t].[ServiceNumberId] = [s0].[Id]
+      ORDER BY [t].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT COUNT(*)
+      FROM [ServiceTransaction] AS [s]
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[2]
+      Executed action method WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 12295.1574ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[WePayOffer.DAL.Entity.ServiceTransaction, WePayOffer.DAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[2]
+      Executed action WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal) in 12336.7416ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST http://localhost:44382/Wallet/Filter application/x-www-form-urlencoded;+charset=UTF-8 1513 - 200 - application/json;+charset=utf-8 12355.7305ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://localhost:44382/Wallet/Filter application/x-www-form-urlencoded;+charset=UTF-8 1523
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[3]
+      Route matched with {action = "Filter", controller = "Wallet"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Filter(WePayOffer.BL.Models.FilterVM) on controller WePayOffer.Portal.Controllers.WalletController (WePayOffer.Portal).
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[1]
+      Executing action method WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal) - Validation state: Invalid
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 6.0.9 initialized 'ApplicationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.9' with options: None
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+      SELECT [t].[Id], [t].[CreationDate], [t].[FunctionId], [t].[IsSucceed], [t].[RequestId], [t].[ResponseMessage], [t].[ServiceNumberId], [s0].[Id], [s0].[CreationDate], [s0].[Number], [s0].[OfferId], [s0].[StatusId]
+      FROM (
+          SELECT [s].[Id], [s].[CreationDate], [s].[FunctionId], [s].[IsSucceed], [s].[RequestId], [s].[ResponseMessage], [s].[ServiceNumberId]
+          FROM [ServiceTransaction] AS [s]
+          ORDER BY [s].[Id]
+          OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+      ) AS [t]
+      INNER JOIN [ServiceNumber] AS [s0] ON [t].[ServiceNumberId] = [s0].[Id]
+      ORDER BY [t].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT COUNT(*)
+      FROM [ServiceTransaction] AS [s]
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[2]
+      Executed action method WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 3110.2004ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[WePayOffer.DAL.Entity.ServiceTransaction, WePayOffer.DAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[2]
+      Executed action WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal) in 3125.0008ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST http://localhost:44382/Wallet/Filter application/x-www-form-urlencoded;+charset=UTF-8 1523 - 200 - application/json;+charset=utf-8 3131.0431ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://localhost:44382/Wallet/Filter application/x-www-form-urlencoded;+charset=UTF-8 1533
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[3]
+      Route matched with {action = "Filter", controller = "Wallet"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Filter(WePayOffer.BL.Models.FilterVM) on controller WePayOffer.Portal.Controllers.WalletController (WePayOffer.Portal).
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[1]
+      Executing action method WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal) - Validation state: Invalid
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 6.0.9 initialized 'ApplicationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.9' with options: None
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (6ms) [Parameters=[@__8__locals1_filter_from_0='?' (DbType = DateTime2), @__8__locals1_filter_to_1='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+      SELECT [s].[Id], [s].[CreationDate], [s].[FunctionId], [s].[IsSucceed], [s].[RequestId], [s].[ResponseMessage], [s].[ServiceNumberId], [s0].[Id], [s0].[CreationDate], [s0].[Number], [s0].[OfferId], [s0].[StatusId]
+      FROM [ServiceTransaction] AS [s]
+      INNER JOIN [ServiceNumber] AS [s0] ON [s].[ServiceNumberId] = [s0].[Id]
+      WHERE ([s0].[CreationDate] >= @__8__locals1_filter_from_0) AND ([s0].[CreationDate] <= @__8__locals1_filter_to_1)
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (2ms) [Parameters=[@__8__locals1_filter_from_0='?' (DbType = DateTime2), @__8__locals1_filter_to_1='?' (DbType = DateTime2), @__p_2='?' (DbType = Int32), @__p_3='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+      SELECT [s].[Id], [s].[CreationDate], [s].[FunctionId], [s].[IsSucceed], [s].[RequestId], [s].[ResponseMessage], [s].[ServiceNumberId], [s0].[Id], [s0].[CreationDate], [s0].[Number], [s0].[OfferId], [s0].[StatusId]
+      FROM [ServiceTransaction] AS [s]
+      INNER JOIN [ServiceNumber] AS [s0] ON [s].[ServiceNumberId] = [s0].[Id]
+      WHERE ([s0].[CreationDate] >= @__8__locals1_filter_from_0) AND ([s0].[CreationDate] <= @__8__locals1_filter_to_1)
+      ORDER BY [s].[Id]
+      OFFSET @__p_2 ROWS FETCH NEXT @__p_3 ROWS ONLY
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__8__locals1_filter_from_0='?' (DbType = DateTime2), @__8__locals1_filter_to_1='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+      SELECT COUNT(*)
+      FROM [ServiceTransaction] AS [s]
+      INNER JOIN [ServiceNumber] AS [s0] ON [s].[ServiceNumberId] = [s0].[Id]
+      WHERE ([s0].[CreationDate] >= @__8__locals1_filter_from_0) AND ([s0].[CreationDate] <= @__8__locals1_filter_to_1)
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[2]
+      Executed action method WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 9320.5639ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[WePayOffer.DAL.Entity.ServiceTransaction, WePayOffer.DAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[2]
+      Executed action WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal) in 9332.3027ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST http://localhost:44382/Wallet/Filter application/x-www-form-urlencoded;+charset=UTF-8 1533 - 200 - application/json;+charset=utf-8 9337.9841ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://localhost:44382/Wallet/Filter application/x-www-form-urlencoded;+charset=UTF-8 1533
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[3]
+      Route matched with {action = "Filter", controller = "Wallet"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Filter(WePayOffer.BL.Models.FilterVM) on controller WePayOffer.Portal.Controllers.WalletController (WePayOffer.Portal).
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[1]
+      Executing action method WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal) - Validation state: Invalid
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 6.0.9 initialized 'ApplicationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.9' with options: None
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (2ms) [Parameters=[@__8__locals1_filter_from_0='?' (DbType = DateTime2), @__8__locals1_filter_to_1='?' (DbType = DateTime2), @__p_2='?' (DbType = Int32), @__p_3='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+      SELECT [s].[Id], [s].[CreationDate], [s].[FunctionId], [s].[IsSucceed], [s].[RequestId], [s].[ResponseMessage], [s].[ServiceNumberId], [s0].[Id], [s0].[CreationDate], [s0].[Number], [s0].[OfferId], [s0].[StatusId]
+      FROM [ServiceTransaction] AS [s]
+      INNER JOIN [ServiceNumber] AS [s0] ON [s].[ServiceNumberId] = [s0].[Id]
+      WHERE ([s0].[CreationDate] >= @__8__locals1_filter_from_0) AND ([s0].[CreationDate] <= @__8__locals1_filter_to_1)
+      ORDER BY [s].[Id]
+      OFFSET @__p_2 ROWS FETCH NEXT @__p_3 ROWS ONLY
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__8__locals1_filter_from_0='?' (DbType = DateTime2), @__8__locals1_filter_to_1='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+      SELECT COUNT(*)
+      FROM [ServiceTransaction] AS [s]
+      INNER JOIN [ServiceNumber] AS [s0] ON [s].[ServiceNumberId] = [s0].[Id]
+      WHERE ([s0].[CreationDate] >= @__8__locals1_filter_from_0) AND ([s0].[CreationDate] <= @__8__locals1_filter_to_1)
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[2]
+      Executed action method WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1756.1735ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[WePayOffer.DAL.Entity.ServiceTransaction, WePayOffer.DAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[2]
+      Executed action WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal) in 1767.8502ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST http://localhost:44382/Wallet/Filter application/x-www-form-urlencoded;+charset=UTF-8 1533 - 200 - application/json;+charset=utf-8 1774.0887ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://localhost:44382/Wallet/Filter application/x-www-form-urlencoded;+charset=UTF-8 1533
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[3]
+      Route matched with {action = "Filter", controller = "Wallet"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Filter(WePayOffer.BL.Models.FilterVM) on controller WePayOffer.Portal.Controllers.WalletController (WePayOffer.Portal).
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[1]
+      Executing action method WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal) - Validation state: Invalid
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 6.0.9 initialized 'ApplicationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.9' with options: None
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[@__8__locals1_filter_from_0='?' (DbType = DateTime2), @__8__locals1_filter_to_1='?' (DbType = DateTime2), @__p_2='?' (DbType = Int32), @__p_3='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+      SELECT [s].[Id], [s].[CreationDate], [s].[FunctionId], [s].[IsSucceed], [s].[RequestId], [s].[ResponseMessage], [s].[ServiceNumberId], [s0].[Id], [s0].[CreationDate], [s0].[Number], [s0].[OfferId], [s0].[StatusId]
+      FROM [ServiceTransaction] AS [s]
+      INNER JOIN [ServiceNumber] AS [s0] ON [s].[ServiceNumberId] = [s0].[Id]
+      WHERE ([s0].[CreationDate] >= @__8__locals1_filter_from_0) AND ([s0].[CreationDate] <= @__8__locals1_filter_to_1)
+      ORDER BY [s].[Id]
+      OFFSET @__p_2 ROWS FETCH NEXT @__p_3 ROWS ONLY
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[@__8__locals1_filter_from_0='?' (DbType = DateTime2), @__8__locals1_filter_to_1='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+      SELECT COUNT(*)
+      FROM [ServiceTransaction] AS [s]
+      INNER JOIN [ServiceNumber] AS [s0] ON [s].[ServiceNumberId] = [s0].[Id]
+      WHERE ([s0].[CreationDate] >= @__8__locals1_filter_from_0) AND ([s0].[CreationDate] <= @__8__locals1_filter_to_1)
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[2]
+      Executed action method WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 3817.3237ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[WePayOffer.DAL.Entity.ServiceTransaction, WePayOffer.DAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[2]
+      Executed action WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal) in 3828.5271ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST http://localhost:44382/Wallet/Filter application/x-www-form-urlencoded;+charset=UTF-8 1533 - 200 - application/json;+charset=utf-8 3833.9460ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://localhost:44382/Wallet/Filter application/x-www-form-urlencoded;+charset=UTF-8 1533
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[3]
+      Route matched with {action = "Filter", controller = "Wallet"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Filter(WePayOffer.BL.Models.FilterVM) on controller WePayOffer.Portal.Controllers.WalletController (WePayOffer.Portal).
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[1]
+      Executing action method WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal) - Validation state: Invalid
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 6.0.9 initialized 'ApplicationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.9' with options: None
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (2ms) [Parameters=[@__8__locals1_filter_from_0='?' (DbType = DateTime2), @__8__locals1_filter_to_1='?' (DbType = DateTime2), @__p_2='?' (DbType = Int32), @__p_3='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+      SELECT [s].[Id], [s].[CreationDate], [s].[FunctionId], [s].[IsSucceed], [s].[RequestId], [s].[ResponseMessage], [s].[ServiceNumberId], [s0].[Id], [s0].[CreationDate], [s0].[Number], [s0].[OfferId], [s0].[StatusId]
+      FROM [ServiceTransaction] AS [s]
+      INNER JOIN [ServiceNumber] AS [s0] ON [s].[ServiceNumberId] = [s0].[Id]
+      WHERE ([s0].[CreationDate] >= @__8__locals1_filter_from_0) AND ([s0].[CreationDate] <= @__8__locals1_filter_to_1)
+      ORDER BY [s].[Id]
+      OFFSET @__p_2 ROWS FETCH NEXT @__p_3 ROWS ONLY
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (2ms) [Parameters=[@__8__locals1_filter_from_0='?' (DbType = DateTime2), @__8__locals1_filter_to_1='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+      SELECT COUNT(*)
+      FROM [ServiceTransaction] AS [s]
+      INNER JOIN [ServiceNumber] AS [s0] ON [s].[ServiceNumberId] = [s0].[Id]
+      WHERE ([s0].[CreationDate] >= @__8__locals1_filter_from_0) AND ([s0].[CreationDate] <= @__8__locals1_filter_to_1)
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[2]
+      Executed action method WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 8438.9703ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[WePayOffer.DAL.Entity.ServiceTransaction, WePayOffer.DAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[2]
+      Executed action WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal) in 8449.6281ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST http://localhost:44382/Wallet/Filter application/x-www-form-urlencoded;+charset=UTF-8 1533 - 200 - application/json;+charset=utf-8 8454.9551ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://localhost:44382/Wallet/Filter application/x-www-form-urlencoded;+charset=UTF-8 1533
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[3]
+      Route matched with {action = "Filter", controller = "Wallet"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Filter(WePayOffer.BL.Models.FilterVM) on controller WePayOffer.Portal.Controllers.WalletController (WePayOffer.Portal).
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[1]
+      Executing action method WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal) - Validation state: Invalid
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 6.0.9 initialized 'ApplicationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.9' with options: None
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[@__8__locals1_filter_from_0='?' (DbType = DateTime2), @__8__locals1_filter_to_1='?' (DbType = DateTime2), @__p_2='?' (DbType = Int32), @__p_3='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+      SELECT [s].[Id], [s].[CreationDate], [s].[FunctionId], [s].[IsSucceed], [s].[RequestId], [s].[ResponseMessage], [s].[ServiceNumberId], [s0].[Id], [s0].[CreationDate], [s0].[Number], [s0].[OfferId], [s0].[StatusId]
+      FROM [ServiceTransaction] AS [s]
+      INNER JOIN [ServiceNumber] AS [s0] ON [s].[ServiceNumberId] = [s0].[Id]
+      WHERE ([s0].[CreationDate] >= @__8__locals1_filter_from_0) AND ([s0].[CreationDate] <= @__8__locals1_filter_to_1)
+      ORDER BY [s].[Id]
+      OFFSET @__p_2 ROWS FETCH NEXT @__p_3 ROWS ONLY
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[@__8__locals1_filter_from_0='?' (DbType = DateTime2), @__8__locals1_filter_to_1='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+      SELECT COUNT(*)
+      FROM [ServiceTransaction] AS [s]
+      INNER JOIN [ServiceNumber] AS [s0] ON [s].[ServiceNumberId] = [s0].[Id]
+      WHERE ([s0].[CreationDate] >= @__8__locals1_filter_from_0) AND ([s0].[CreationDate] <= @__8__locals1_filter_to_1)
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[2]
+      Executed action method WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 4.5994ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[WePayOffer.DAL.Entity.ServiceTransaction, WePayOffer.DAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[2]
+      Executed action WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal) in 14.9739ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST http://localhost:44382/Wallet/Filter application/x-www-form-urlencoded;+charset=UTF-8 1533 - 200 - application/json;+charset=utf-8 20.0957ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://localhost:44382/Wallet/Filter application/x-www-form-urlencoded;+charset=UTF-8 1533
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[3]
+      Route matched with {action = "Filter", controller = "Wallet"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Filter(WePayOffer.BL.Models.FilterVM) on controller WePayOffer.Portal.Controllers.WalletController (WePayOffer.Portal).
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[1]
+      Executing action method WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal) - Validation state: Invalid
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 6.0.9 initialized 'ApplicationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.9' with options: None
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[@__8__locals1_filter_from_0='?' (DbType = DateTime2), @__8__locals1_filter_to_1='?' (DbType = DateTime2), @__p_2='?' (DbType = Int32), @__p_3='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+      SELECT [s].[Id], [s].[CreationDate], [s].[FunctionId], [s].[IsSucceed], [s].[RequestId], [s].[ResponseMessage], [s].[ServiceNumberId], [s0].[Id], [s0].[CreationDate], [s0].[Number], [s0].[OfferId], [s0].[StatusId]
+      FROM [ServiceTransaction] AS [s]
+      INNER JOIN [ServiceNumber] AS [s0] ON [s].[ServiceNumberId] = [s0].[Id]
+      WHERE ([s0].[CreationDate] >= @__8__locals1_filter_from_0) AND ([s0].[CreationDate] <= @__8__locals1_filter_to_1)
+      ORDER BY [s].[Id]
+      OFFSET @__p_2 ROWS FETCH NEXT @__p_3 ROWS ONLY
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[@__8__locals1_filter_from_0='?' (DbType = DateTime2), @__8__locals1_filter_to_1='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+      SELECT COUNT(*)
+      FROM [ServiceTransaction] AS [s]
+      INNER JOIN [ServiceNumber] AS [s0] ON [s].[ServiceNumberId] = [s0].[Id]
+      WHERE ([s0].[CreationDate] >= @__8__locals1_filter_from_0) AND ([s0].[CreationDate] <= @__8__locals1_filter_to_1)
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[2]
+      Executed action method WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 4.392ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[WePayOffer.DAL.Entity.ServiceTransaction, WePayOffer.DAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[2]
+      Executed action WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal) in 15.3374ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST http://localhost:44382/Wallet/Filter application/x-www-form-urlencoded;+charset=UTF-8 1533 - 200 - application/json;+charset=utf-8 21.9265ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://localhost:44382/Wallet/Filter application/x-www-form-urlencoded;+charset=UTF-8 1533
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[3]
+      Route matched with {action = "Filter", controller = "Wallet"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Filter(WePayOffer.BL.Models.FilterVM) on controller WePayOffer.Portal.Controllers.WalletController (WePayOffer.Portal).
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[1]
+      Executing action method WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal) - Validation state: Invalid
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 6.0.9 initialized 'ApplicationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.9' with options: None
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[@__8__locals1_filter_from_0='?' (DbType = DateTime2), @__8__locals1_filter_to_1='?' (DbType = DateTime2), @__p_2='?' (DbType = Int32), @__p_3='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+      SELECT [s].[Id], [s].[CreationDate], [s].[FunctionId], [s].[IsSucceed], [s].[RequestId], [s].[ResponseMessage], [s].[ServiceNumberId], [s0].[Id], [s0].[CreationDate], [s0].[Number], [s0].[OfferId], [s0].[StatusId]
+      FROM [ServiceTransaction] AS [s]
+      INNER JOIN [ServiceNumber] AS [s0] ON [s].[ServiceNumberId] = [s0].[Id]
+      WHERE ([s0].[CreationDate] >= @__8__locals1_filter_from_0) AND ([s0].[CreationDate] <= @__8__locals1_filter_to_1)
+      ORDER BY [s].[Id]
+      OFFSET @__p_2 ROWS FETCH NEXT @__p_3 ROWS ONLY
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[@__8__locals1_filter_from_0='?' (DbType = DateTime2), @__8__locals1_filter_to_1='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+      SELECT COUNT(*)
+      FROM [ServiceTransaction] AS [s]
+      INNER JOIN [ServiceNumber] AS [s0] ON [s].[ServiceNumberId] = [s0].[Id]
+      WHERE ([s0].[CreationDate] >= @__8__locals1_filter_from_0) AND ([s0].[CreationDate] <= @__8__locals1_filter_to_1)
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[2]
+      Executed action method WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 4.6679ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[WePayOffer.DAL.Entity.ServiceTransaction, WePayOffer.DAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[2]
+      Executed action WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal) in 15.0683ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST http://localhost:44382/Wallet/Filter application/x-www-form-urlencoded;+charset=UTF-8 1533 - 200 - application/json;+charset=utf-8 20.3529ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://localhost:44382/Wallet/Filter application/x-www-form-urlencoded;+charset=UTF-8 1534
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[3]
+      Route matched with {action = "Filter", controller = "Wallet"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Filter(WePayOffer.BL.Models.FilterVM) on controller WePayOffer.Portal.Controllers.WalletController (WePayOffer.Portal).
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[1]
+      Executing action method WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal) - Validation state: Invalid
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 6.0.9 initialized 'ApplicationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.9' with options: None
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[@__8__locals1_filter_from_0='?' (DbType = DateTime2), @__8__locals1_filter_to_1='?' (DbType = DateTime2), @__p_2='?' (DbType = Int32), @__p_3='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+      SELECT [s].[Id], [s].[CreationDate], [s].[FunctionId], [s].[IsSucceed], [s].[RequestId], [s].[ResponseMessage], [s].[ServiceNumberId], [s0].[Id], [s0].[CreationDate], [s0].[Number], [s0].[OfferId], [s0].[StatusId]
+      FROM [ServiceTransaction] AS [s]
+      INNER JOIN [ServiceNumber] AS [s0] ON [s].[ServiceNumberId] = [s0].[Id]
+      WHERE ([s0].[CreationDate] >= @__8__locals1_filter_from_0) AND ([s0].[CreationDate] <= @__8__locals1_filter_to_1)
+      ORDER BY [s].[Id]
+      OFFSET @__p_2 ROWS FETCH NEXT @__p_3 ROWS ONLY
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[@__8__locals1_filter_from_0='?' (DbType = DateTime2), @__8__locals1_filter_to_1='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+      SELECT COUNT(*)
+      FROM [ServiceTransaction] AS [s]
+      INNER JOIN [ServiceNumber] AS [s0] ON [s].[ServiceNumberId] = [s0].[Id]
+      WHERE ([s0].[CreationDate] >= @__8__locals1_filter_from_0) AND ([s0].[CreationDate] <= @__8__locals1_filter_to_1)
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[2]
+      Executed action method WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 4.5598ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[WePayOffer.DAL.Entity.ServiceTransaction, WePayOffer.DAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[2]
+      Executed action WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal) in 14.8299ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST http://localhost:44382/Wallet/Filter application/x-www-form-urlencoded;+charset=UTF-8 1534 - 200 - application/json;+charset=utf-8 20.5653ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://localhost:44382/Wallet/Filter application/x-www-form-urlencoded;+charset=UTF-8 1534
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[3]
+      Route matched with {action = "Filter", controller = "Wallet"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Filter(WePayOffer.BL.Models.FilterVM) on controller WePayOffer.Portal.Controllers.WalletController (WePayOffer.Portal).
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[1]
+      Executing action method WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal) - Validation state: Invalid
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 6.0.9 initialized 'ApplicationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.9' with options: None
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[@__8__locals1_filter_from_0='?' (DbType = DateTime2), @__8__locals1_filter_to_1='?' (DbType = DateTime2), @__p_2='?' (DbType = Int32), @__p_3='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+      SELECT [s].[Id], [s].[CreationDate], [s].[FunctionId], [s].[IsSucceed], [s].[RequestId], [s].[ResponseMessage], [s].[ServiceNumberId], [s0].[Id], [s0].[CreationDate], [s0].[Number], [s0].[OfferId], [s0].[StatusId]
+      FROM [ServiceTransaction] AS [s]
+      INNER JOIN [ServiceNumber] AS [s0] ON [s].[ServiceNumberId] = [s0].[Id]
+      WHERE ([s0].[CreationDate] >= @__8__locals1_filter_from_0) AND ([s0].[CreationDate] <= @__8__locals1_filter_to_1)
+      ORDER BY [s].[Id]
+      OFFSET @__p_2 ROWS FETCH NEXT @__p_3 ROWS ONLY
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[@__8__locals1_filter_from_0='?' (DbType = DateTime2), @__8__locals1_filter_to_1='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+      SELECT COUNT(*)
+      FROM [ServiceTransaction] AS [s]
+      INNER JOIN [ServiceNumber] AS [s0] ON [s].[ServiceNumberId] = [s0].[Id]
+      WHERE ([s0].[CreationDate] >= @__8__locals1_filter_from_0) AND ([s0].[CreationDate] <= @__8__locals1_filter_to_1)
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[2]
+      Executed action method WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 4.3867ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[WePayOffer.DAL.Entity.ServiceTransaction, WePayOffer.DAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[2]
+      Executed action WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal) in 15.1435ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST http://localhost:44382/Wallet/Filter application/x-www-form-urlencoded;+charset=UTF-8 1534 - 200 - application/json;+charset=utf-8 20.6263ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://localhost:44382/Wallet/Filter application/x-www-form-urlencoded;+charset=UTF-8 1534
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[3]
+      Route matched with {action = "Filter", controller = "Wallet"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Filter(WePayOffer.BL.Models.FilterVM) on controller WePayOffer.Portal.Controllers.WalletController (WePayOffer.Portal).
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[1]
+      Executing action method WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal) - Validation state: Invalid
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 6.0.9 initialized 'ApplicationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.9' with options: None
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[@__8__locals1_filter_from_0='?' (DbType = DateTime2), @__8__locals1_filter_to_1='?' (DbType = DateTime2), @__p_2='?' (DbType = Int32), @__p_3='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+      SELECT [s].[Id], [s].[CreationDate], [s].[FunctionId], [s].[IsSucceed], [s].[RequestId], [s].[ResponseMessage], [s].[ServiceNumberId], [s0].[Id], [s0].[CreationDate], [s0].[Number], [s0].[OfferId], [s0].[StatusId]
+      FROM [ServiceTransaction] AS [s]
+      INNER JOIN [ServiceNumber] AS [s0] ON [s].[ServiceNumberId] = [s0].[Id]
+      WHERE ([s0].[CreationDate] >= @__8__locals1_filter_from_0) AND ([s0].[CreationDate] <= @__8__locals1_filter_to_1)
+      ORDER BY [s].[Id]
+      OFFSET @__p_2 ROWS FETCH NEXT @__p_3 ROWS ONLY
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[@__8__locals1_filter_from_0='?' (DbType = DateTime2), @__8__locals1_filter_to_1='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+      SELECT COUNT(*)
+      FROM [ServiceTransaction] AS [s]
+      INNER JOIN [ServiceNumber] AS [s0] ON [s].[ServiceNumberId] = [s0].[Id]
+      WHERE ([s0].[CreationDate] >= @__8__locals1_filter_from_0) AND ([s0].[CreationDate] <= @__8__locals1_filter_to_1)
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[2]
+      Executed action method WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 4.6455ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[WePayOffer.DAL.Entity.ServiceTransaction, WePayOffer.DAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[2]
+      Executed action WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal) in 16.2005ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST http://localhost:44382/Wallet/Filter application/x-www-form-urlencoded;+charset=UTF-8 1534 - 200 - application/json;+charset=utf-8 21.7377ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://localhost:44382/Wallet/Filter application/x-www-form-urlencoded;+charset=UTF-8 1534
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[3]
+      Route matched with {action = "Filter", controller = "Wallet"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Filter(WePayOffer.BL.Models.FilterVM) on controller WePayOffer.Portal.Controllers.WalletController (WePayOffer.Portal).
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[1]
+      Executing action method WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal) - Validation state: Invalid
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 6.0.9 initialized 'ApplicationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.9' with options: None
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[@__8__locals1_filter_from_0='?' (DbType = DateTime2), @__8__locals1_filter_to_1='?' (DbType = DateTime2), @__p_2='?' (DbType = Int32), @__p_3='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+      SELECT [s].[Id], [s].[CreationDate], [s].[FunctionId], [s].[IsSucceed], [s].[RequestId], [s].[ResponseMessage], [s].[ServiceNumberId], [s0].[Id], [s0].[CreationDate], [s0].[Number], [s0].[OfferId], [s0].[StatusId]
+      FROM [ServiceTransaction] AS [s]
+      INNER JOIN [ServiceNumber] AS [s0] ON [s].[ServiceNumberId] = [s0].[Id]
+      WHERE ([s0].[CreationDate] >= @__8__locals1_filter_from_0) AND ([s0].[CreationDate] <= @__8__locals1_filter_to_1)
+      ORDER BY [s].[Id]
+      OFFSET @__p_2 ROWS FETCH NEXT @__p_3 ROWS ONLY
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[@__8__locals1_filter_from_0='?' (DbType = DateTime2), @__8__locals1_filter_to_1='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+      SELECT COUNT(*)
+      FROM [ServiceTransaction] AS [s]
+      INNER JOIN [ServiceNumber] AS [s0] ON [s].[ServiceNumberId] = [s0].[Id]
+      WHERE ([s0].[CreationDate] >= @__8__locals1_filter_from_0) AND ([s0].[CreationDate] <= @__8__locals1_filter_to_1)
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[2]
+      Executed action method WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 4.8476ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[WePayOffer.DAL.Entity.ServiceTransaction, WePayOffer.DAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[2]
+      Executed action WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal) in 15.8522ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST http://localhost:44382/Wallet/Filter application/x-www-form-urlencoded;+charset=UTF-8 1534 - 200 - application/json;+charset=utf-8 21.7293ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://localhost:44382/Wallet/Filter application/x-www-form-urlencoded;+charset=UTF-8 1524
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[3]
+      Route matched with {action = "Filter", controller = "Wallet"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Filter(WePayOffer.BL.Models.FilterVM) on controller WePayOffer.Portal.Controllers.WalletController (WePayOffer.Portal).
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[1]
+      Executing action method WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal) - Validation state: Invalid
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 6.0.9 initialized 'ApplicationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.9' with options: None
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+      SELECT [t].[Id], [t].[CreationDate], [t].[FunctionId], [t].[IsSucceed], [t].[RequestId], [t].[ResponseMessage], [t].[ServiceNumberId], [s0].[Id], [s0].[CreationDate], [s0].[Number], [s0].[OfferId], [s0].[StatusId]
+      FROM (
+          SELECT [s].[Id], [s].[CreationDate], [s].[FunctionId], [s].[IsSucceed], [s].[RequestId], [s].[ResponseMessage], [s].[ServiceNumberId]
+          FROM [ServiceTransaction] AS [s]
+          ORDER BY [s].[Id]
+          OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+      ) AS [t]
+      INNER JOIN [ServiceNumber] AS [s0] ON [t].[ServiceNumberId] = [s0].[Id]
+      ORDER BY [t].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT COUNT(*)
+      FROM [ServiceTransaction] AS [s]
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[2]
+      Executed action method WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 6.2202ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[WePayOffer.DAL.Entity.ServiceTransaction, WePayOffer.DAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[2]
+      Executed action WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal) in 17.1516ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST http://localhost:44382/Wallet/Filter application/x-www-form-urlencoded;+charset=UTF-8 1524 - 200 - application/json;+charset=utf-8 22.4712ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://localhost:44382/Wallet/Filter application/x-www-form-urlencoded;+charset=UTF-8 1534
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[3]
+      Route matched with {action = "Filter", controller = "Wallet"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Filter(WePayOffer.BL.Models.FilterVM) on controller WePayOffer.Portal.Controllers.WalletController (WePayOffer.Portal).
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[1]
+      Executing action method WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal) - Validation state: Invalid
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 6.0.9 initialized 'ApplicationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.9' with options: None
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[@__8__locals1_filter_from_0='?' (DbType = DateTime2), @__8__locals1_filter_to_1='?' (DbType = DateTime2), @__p_2='?' (DbType = Int32), @__p_3='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+      SELECT [s].[Id], [s].[CreationDate], [s].[FunctionId], [s].[IsSucceed], [s].[RequestId], [s].[ResponseMessage], [s].[ServiceNumberId], [s0].[Id], [s0].[CreationDate], [s0].[Number], [s0].[OfferId], [s0].[StatusId]
+      FROM [ServiceTransaction] AS [s]
+      INNER JOIN [ServiceNumber] AS [s0] ON [s].[ServiceNumberId] = [s0].[Id]
+      WHERE ([s0].[CreationDate] >= @__8__locals1_filter_from_0) AND ([s0].[CreationDate] <= @__8__locals1_filter_to_1)
+      ORDER BY [s].[Id]
+      OFFSET @__p_2 ROWS FETCH NEXT @__p_3 ROWS ONLY
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[@__8__locals1_filter_from_0='?' (DbType = DateTime2), @__8__locals1_filter_to_1='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+      SELECT COUNT(*)
+      FROM [ServiceTransaction] AS [s]
+      INNER JOIN [ServiceNumber] AS [s0] ON [s].[ServiceNumberId] = [s0].[Id]
+      WHERE ([s0].[CreationDate] >= @__8__locals1_filter_from_0) AND ([s0].[CreationDate] <= @__8__locals1_filter_to_1)
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[2]
+      Executed action method WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 4.4854ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[WePayOffer.DAL.Entity.ServiceTransaction, WePayOffer.DAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[2]
+      Executed action WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal) in 15.3122ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST http://localhost:44382/Wallet/Filter application/x-www-form-urlencoded;+charset=UTF-8 1534 - 200 - application/json;+charset=utf-8 21.2730ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://localhost:44382/Wallet/Filter application/x-www-form-urlencoded;+charset=UTF-8 1534
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[3]
+      Route matched with {action = "Filter", controller = "Wallet"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Filter(WePayOffer.BL.Models.FilterVM) on controller WePayOffer.Portal.Controllers.WalletController (WePayOffer.Portal).
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[1]
+      Executing action method WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal) - Validation state: Invalid
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 6.0.9 initialized 'ApplicationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.9' with options: None
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[@__8__locals1_filter_from_0='?' (DbType = DateTime2), @__8__locals1_filter_to_1='?' (DbType = DateTime2), @__p_2='?' (DbType = Int32), @__p_3='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+      SELECT [s].[Id], [s].[CreationDate], [s].[FunctionId], [s].[IsSucceed], [s].[RequestId], [s].[ResponseMessage], [s].[ServiceNumberId], [s0].[Id], [s0].[CreationDate], [s0].[Number], [s0].[OfferId], [s0].[StatusId]
+      FROM [ServiceTransaction] AS [s]
+      INNER JOIN [ServiceNumber] AS [s0] ON [s].[ServiceNumberId] = [s0].[Id]
+      WHERE ([s0].[CreationDate] >= @__8__locals1_filter_from_0) AND ([s0].[CreationDate] <= @__8__locals1_filter_to_1)
+      ORDER BY [s].[Id]
+      OFFSET @__p_2 ROWS FETCH NEXT @__p_3 ROWS ONLY
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[@__8__locals1_filter_from_0='?' (DbType = DateTime2), @__8__locals1_filter_to_1='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+      SELECT COUNT(*)
+      FROM [ServiceTransaction] AS [s]
+      INNER JOIN [ServiceNumber] AS [s0] ON [s].[ServiceNumberId] = [s0].[Id]
+      WHERE ([s0].[CreationDate] >= @__8__locals1_filter_from_0) AND ([s0].[CreationDate] <= @__8__locals1_filter_to_1)
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[2]
+      Executed action method WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 4.7313ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[WePayOffer.DAL.Entity.ServiceTransaction, WePayOffer.DAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[2]
+      Executed action WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal) in 15.2741ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST http://localhost:44382/Wallet/Filter application/x-www-form-urlencoded;+charset=UTF-8 1534 - 200 - application/json;+charset=utf-8 21.0674ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://localhost:44382/Wallet/Filter application/x-www-form-urlencoded;+charset=UTF-8 1534
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[3]
+      Route matched with {action = "Filter", controller = "Wallet"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Filter(WePayOffer.BL.Models.FilterVM) on controller WePayOffer.Portal.Controllers.WalletController (WePayOffer.Portal).
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[1]
+      Executing action method WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal) - Validation state: Invalid
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 6.0.9 initialized 'ApplicationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.9' with options: None
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[@__8__locals1_filter_from_0='?' (DbType = DateTime2), @__8__locals1_filter_to_1='?' (DbType = DateTime2), @__p_2='?' (DbType = Int32), @__p_3='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+      SELECT [s].[Id], [s].[CreationDate], [s].[FunctionId], [s].[IsSucceed], [s].[RequestId], [s].[ResponseMessage], [s].[ServiceNumberId], [s0].[Id], [s0].[CreationDate], [s0].[Number], [s0].[OfferId], [s0].[StatusId]
+      FROM [ServiceTransaction] AS [s]
+      INNER JOIN [ServiceNumber] AS [s0] ON [s].[ServiceNumberId] = [s0].[Id]
+      WHERE ([s0].[CreationDate] >= @__8__locals1_filter_from_0) AND ([s0].[CreationDate] <= @__8__locals1_filter_to_1)
+      ORDER BY [s].[Id]
+      OFFSET @__p_2 ROWS FETCH NEXT @__p_3 ROWS ONLY
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[@__8__locals1_filter_from_0='?' (DbType = DateTime2), @__8__locals1_filter_to_1='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+      SELECT COUNT(*)
+      FROM [ServiceTransaction] AS [s]
+      INNER JOIN [ServiceNumber] AS [s0] ON [s].[ServiceNumberId] = [s0].[Id]
+      WHERE ([s0].[CreationDate] >= @__8__locals1_filter_from_0) AND ([s0].[CreationDate] <= @__8__locals1_filter_to_1)
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[2]
+      Executed action method WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 4.9266ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[WePayOffer.DAL.Entity.ServiceTransaction, WePayOffer.DAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[2]
+      Executed action WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal) in 16.155ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST http://localhost:44382/Wallet/Filter application/x-www-form-urlencoded;+charset=UTF-8 1534 - 200 - application/json;+charset=utf-8 22.1231ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://localhost:44382/Wallet/Filter application/x-www-form-urlencoded;+charset=UTF-8 1534
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[3]
+      Route matched with {action = "Filter", controller = "Wallet"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Filter(WePayOffer.BL.Models.FilterVM) on controller WePayOffer.Portal.Controllers.WalletController (WePayOffer.Portal).
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[1]
+      Executing action method WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal) - Validation state: Invalid
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 6.0.9 initialized 'ApplicationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.9' with options: None
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[@__8__locals1_filter_from_0='?' (DbType = DateTime2), @__8__locals1_filter_to_1='?' (DbType = DateTime2), @__p_2='?' (DbType = Int32), @__p_3='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+      SELECT [s].[Id], [s].[CreationDate], [s].[FunctionId], [s].[IsSucceed], [s].[RequestId], [s].[ResponseMessage], [s].[ServiceNumberId], [s0].[Id], [s0].[CreationDate], [s0].[Number], [s0].[OfferId], [s0].[StatusId]
+      FROM [ServiceTransaction] AS [s]
+      INNER JOIN [ServiceNumber] AS [s0] ON [s].[ServiceNumberId] = [s0].[Id]
+      WHERE ([s0].[CreationDate] >= @__8__locals1_filter_from_0) AND ([s0].[CreationDate] <= @__8__locals1_filter_to_1)
+      ORDER BY [s].[Id]
+      OFFSET @__p_2 ROWS FETCH NEXT @__p_3 ROWS ONLY
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[@__8__locals1_filter_from_0='?' (DbType = DateTime2), @__8__locals1_filter_to_1='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+      SELECT COUNT(*)
+      FROM [ServiceTransaction] AS [s]
+      INNER JOIN [ServiceNumber] AS [s0] ON [s].[ServiceNumberId] = [s0].[Id]
+      WHERE ([s0].[CreationDate] >= @__8__locals1_filter_from_0) AND ([s0].[CreationDate] <= @__8__locals1_filter_to_1)
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[2]
+      Executed action method WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 5.0406ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[WePayOffer.DAL.Entity.ServiceTransaction, WePayOffer.DAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[2]
+      Executed action WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal) in 15.7978ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST http://localhost:44382/Wallet/Filter application/x-www-form-urlencoded;+charset=UTF-8 1534 - 200 - application/json;+charset=utf-8 21.4431ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://localhost:44382/Wallet/Filter application/x-www-form-urlencoded;+charset=UTF-8 1534
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[3]
+      Route matched with {action = "Filter", controller = "Wallet"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Filter(WePayOffer.BL.Models.FilterVM) on controller WePayOffer.Portal.Controllers.WalletController (WePayOffer.Portal).
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[1]
+      Executing action method WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal) - Validation state: Invalid
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 6.0.9 initialized 'ApplicationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.9' with options: None
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[@__8__locals1_filter_from_0='?' (DbType = DateTime2), @__8__locals1_filter_to_1='?' (DbType = DateTime2), @__p_2='?' (DbType = Int32), @__p_3='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+      SELECT [s].[Id], [s].[CreationDate], [s].[FunctionId], [s].[IsSucceed], [s].[RequestId], [s].[ResponseMessage], [s].[ServiceNumberId], [s0].[Id], [s0].[CreationDate], [s0].[Number], [s0].[OfferId], [s0].[StatusId]
+      FROM [ServiceTransaction] AS [s]
+      INNER JOIN [ServiceNumber] AS [s0] ON [s].[ServiceNumberId] = [s0].[Id]
+      WHERE ([s0].[CreationDate] >= @__8__locals1_filter_from_0) AND ([s0].[CreationDate] <= @__8__locals1_filter_to_1)
+      ORDER BY [s].[Id]
+      OFFSET @__p_2 ROWS FETCH NEXT @__p_3 ROWS ONLY
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[@__8__locals1_filter_from_0='?' (DbType = DateTime2), @__8__locals1_filter_to_1='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+      SELECT COUNT(*)
+      FROM [ServiceTransaction] AS [s]
+      INNER JOIN [ServiceNumber] AS [s0] ON [s].[ServiceNumberId] = [s0].[Id]
+      WHERE ([s0].[CreationDate] >= @__8__locals1_filter_from_0) AND ([s0].[CreationDate] <= @__8__locals1_filter_to_1)
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[2]
+      Executed action method WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 4.2942ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[WePayOffer.DAL.Entity.ServiceTransaction, WePayOffer.DAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[2]
+      Executed action WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal) in 15.032ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST http://localhost:44382/Wallet/Filter application/x-www-form-urlencoded;+charset=UTF-8 1534 - 200 - application/json;+charset=utf-8 20.3704ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://localhost:44382/Wallet/Filter application/x-www-form-urlencoded;+charset=UTF-8 1534
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[3]
+      Route matched with {action = "Filter", controller = "Wallet"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Filter(WePayOffer.BL.Models.FilterVM) on controller WePayOffer.Portal.Controllers.WalletController (WePayOffer.Portal).
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[1]
+      Executing action method WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal) - Validation state: Invalid
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 6.0.9 initialized 'ApplicationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.9' with options: None
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[@__8__locals1_filter_from_0='?' (DbType = DateTime2), @__8__locals1_filter_to_1='?' (DbType = DateTime2), @__p_2='?' (DbType = Int32), @__p_3='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+      SELECT [s].[Id], [s].[CreationDate], [s].[FunctionId], [s].[IsSucceed], [s].[RequestId], [s].[ResponseMessage], [s].[ServiceNumberId], [s0].[Id], [s0].[CreationDate], [s0].[Number], [s0].[OfferId], [s0].[StatusId]
+      FROM [ServiceTransaction] AS [s]
+      INNER JOIN [ServiceNumber] AS [s0] ON [s].[ServiceNumberId] = [s0].[Id]
+      WHERE ([s0].[CreationDate] >= @__8__locals1_filter_from_0) AND ([s0].[CreationDate] <= @__8__locals1_filter_to_1)
+      ORDER BY [s].[Id]
+      OFFSET @__p_2 ROWS FETCH NEXT @__p_3 ROWS ONLY
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[@__8__locals1_filter_from_0='?' (DbType = DateTime2), @__8__locals1_filter_to_1='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+      SELECT COUNT(*)
+      FROM [ServiceTransaction] AS [s]
+      INNER JOIN [ServiceNumber] AS [s0] ON [s].[ServiceNumberId] = [s0].[Id]
+      WHERE ([s0].[CreationDate] >= @__8__locals1_filter_from_0) AND ([s0].[CreationDate] <= @__8__locals1_filter_to_1)
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[2]
+      Executed action method WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 4.7455ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[WePayOffer.DAL.Entity.ServiceTransaction, WePayOffer.DAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[2]
+      Executed action WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal) in 15.167ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST http://localhost:44382/Wallet/Filter application/x-www-form-urlencoded;+charset=UTF-8 1534 - 200 - application/json;+charset=utf-8 20.8334ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://localhost:44382/Wallet/Filter application/x-www-form-urlencoded;+charset=UTF-8 1534
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[3]
+      Route matched with {action = "Filter", controller = "Wallet"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Filter(WePayOffer.BL.Models.FilterVM) on controller WePayOffer.Portal.Controllers.WalletController (WePayOffer.Portal).
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[1]
+      Executing action method WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal) - Validation state: Invalid
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 6.0.9 initialized 'ApplicationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.9' with options: None
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[@__8__locals1_filter_from_0='?' (DbType = DateTime2), @__8__locals1_filter_to_1='?' (DbType = DateTime2), @__p_2='?' (DbType = Int32), @__p_3='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+      SELECT [s].[Id], [s].[CreationDate], [s].[FunctionId], [s].[IsSucceed], [s].[RequestId], [s].[ResponseMessage], [s].[ServiceNumberId], [s0].[Id], [s0].[CreationDate], [s0].[Number], [s0].[OfferId], [s0].[StatusId]
+      FROM [ServiceTransaction] AS [s]
+      INNER JOIN [ServiceNumber] AS [s0] ON [s].[ServiceNumberId] = [s0].[Id]
+      WHERE ([s0].[CreationDate] >= @__8__locals1_filter_from_0) AND ([s0].[CreationDate] <= @__8__locals1_filter_to_1)
+      ORDER BY [s].[Id]
+      OFFSET @__p_2 ROWS FETCH NEXT @__p_3 ROWS ONLY
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[@__8__locals1_filter_from_0='?' (DbType = DateTime2), @__8__locals1_filter_to_1='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+      SELECT COUNT(*)
+      FROM [ServiceTransaction] AS [s]
+      INNER JOIN [ServiceNumber] AS [s0] ON [s].[ServiceNumberId] = [s0].[Id]
+      WHERE ([s0].[CreationDate] >= @__8__locals1_filter_from_0) AND ([s0].[CreationDate] <= @__8__locals1_filter_to_1)
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[2]
+      Executed action method WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 4.7951ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[WePayOffer.DAL.Entity.ServiceTransaction, WePayOffer.DAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[2]
+      Executed action WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal) in 15.3257ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST http://localhost:44382/Wallet/Filter application/x-www-form-urlencoded;+charset=UTF-8 1534 - 200 - application/json;+charset=utf-8 20.6897ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://localhost:44382/Wallet/Filter application/x-www-form-urlencoded;+charset=UTF-8 1524
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[3]
+      Route matched with {action = "Filter", controller = "Wallet"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Filter(WePayOffer.BL.Models.FilterVM) on controller WePayOffer.Portal.Controllers.WalletController (WePayOffer.Portal).
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[1]
+      Executing action method WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal) - Validation state: Invalid
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 6.0.9 initialized 'ApplicationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.9' with options: None
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+      SELECT [t].[Id], [t].[CreationDate], [t].[FunctionId], [t].[IsSucceed], [t].[RequestId], [t].[ResponseMessage], [t].[ServiceNumberId], [s0].[Id], [s0].[CreationDate], [s0].[Number], [s0].[OfferId], [s0].[StatusId]
+      FROM (
+          SELECT [s].[Id], [s].[CreationDate], [s].[FunctionId], [s].[IsSucceed], [s].[RequestId], [s].[ResponseMessage], [s].[ServiceNumberId]
+          FROM [ServiceTransaction] AS [s]
+          ORDER BY [s].[Id]
+          OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+      ) AS [t]
+      INNER JOIN [ServiceNumber] AS [s0] ON [t].[ServiceNumberId] = [s0].[Id]
+      ORDER BY [t].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT COUNT(*)
+      FROM [ServiceTransaction] AS [s]
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[2]
+      Executed action method WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 4.8972ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[WePayOffer.DAL.Entity.ServiceTransaction, WePayOffer.DAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[2]
+      Executed action WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal) in 18.8898ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST http://localhost:44382/Wallet/Filter application/x-www-form-urlencoded;+charset=UTF-8 1524 - 200 - application/json;+charset=utf-8 23.8156ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://localhost:44382/Wallet/Filter application/x-www-form-urlencoded;+charset=UTF-8 1514
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[3]
+      Route matched with {action = "Filter", controller = "Wallet"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Filter(WePayOffer.BL.Models.FilterVM) on controller WePayOffer.Portal.Controllers.WalletController (WePayOffer.Portal).
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[1]
+      Executing action method WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal) - Validation state: Invalid
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 6.0.9 initialized 'ApplicationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.9' with options: None
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+      SELECT [t].[Id], [t].[CreationDate], [t].[FunctionId], [t].[IsSucceed], [t].[RequestId], [t].[ResponseMessage], [t].[ServiceNumberId], [s0].[Id], [s0].[CreationDate], [s0].[Number], [s0].[OfferId], [s0].[StatusId]
+      FROM (
+          SELECT [s].[Id], [s].[CreationDate], [s].[FunctionId], [s].[IsSucceed], [s].[RequestId], [s].[ResponseMessage], [s].[ServiceNumberId]
+          FROM [ServiceTransaction] AS [s]
+          ORDER BY [s].[Id]
+          OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+      ) AS [t]
+      INNER JOIN [ServiceNumber] AS [s0] ON [t].[ServiceNumberId] = [s0].[Id]
+      ORDER BY [t].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT COUNT(*)
+      FROM [ServiceTransaction] AS [s]
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[2]
+      Executed action method WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 5.5237ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[WePayOffer.DAL.Entity.ServiceTransaction, WePayOffer.DAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[2]
+      Executed action WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal) in 16.9266ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST http://localhost:44382/Wallet/Filter application/x-www-form-urlencoded;+charset=UTF-8 1514 - 200 - application/json;+charset=utf-8 22.0936ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://localhost:44382/Wallet/Filter application/x-www-form-urlencoded;+charset=UTF-8 1524
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[3]
+      Route matched with {action = "Filter", controller = "Wallet"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Filter(WePayOffer.BL.Models.FilterVM) on controller WePayOffer.Portal.Controllers.WalletController (WePayOffer.Portal).
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[1]
+      Executing action method WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal) - Validation state: Invalid
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 6.0.9 initialized 'ApplicationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.9' with options: None
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+      SELECT [t].[Id], [t].[CreationDate], [t].[FunctionId], [t].[IsSucceed], [t].[RequestId], [t].[ResponseMessage], [t].[ServiceNumberId], [s0].[Id], [s0].[CreationDate], [s0].[Number], [s0].[OfferId], [s0].[StatusId]
+      FROM (
+          SELECT [s].[Id], [s].[CreationDate], [s].[FunctionId], [s].[IsSucceed], [s].[RequestId], [s].[ResponseMessage], [s].[ServiceNumberId]
+          FROM [ServiceTransaction] AS [s]
+          ORDER BY [s].[Id]
+          OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+      ) AS [t]
+      INNER JOIN [ServiceNumber] AS [s0] ON [t].[ServiceNumberId] = [s0].[Id]
+      ORDER BY [t].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT COUNT(*)
+      FROM [ServiceTransaction] AS [s]
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[2]
+      Executed action method WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 7.6617ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[WePayOffer.DAL.Entity.ServiceTransaction, WePayOffer.DAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[2]
+      Executed action WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal) in 18.6632ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST http://localhost:44382/Wallet/Filter application/x-www-form-urlencoded;+charset=UTF-8 1524 - 200 - application/json;+charset=utf-8 25.4245ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://localhost:44382/Wallet/Filter application/x-www-form-urlencoded;+charset=UTF-8 1534
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[3]
+      Route matched with {action = "Filter", controller = "Wallet"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Filter(WePayOffer.BL.Models.FilterVM) on controller WePayOffer.Portal.Controllers.WalletController (WePayOffer.Portal).
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[1]
+      Executing action method WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal) - Validation state: Invalid
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 6.0.9 initialized 'ApplicationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.9' with options: None
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (2ms) [Parameters=[@__8__locals1_filter_from_0='?' (DbType = DateTime2), @__8__locals1_filter_to_1='?' (DbType = DateTime2), @__p_2='?' (DbType = Int32), @__p_3='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+      SELECT [s].[Id], [s].[CreationDate], [s].[FunctionId], [s].[IsSucceed], [s].[RequestId], [s].[ResponseMessage], [s].[ServiceNumberId], [s0].[Id], [s0].[CreationDate], [s0].[Number], [s0].[OfferId], [s0].[StatusId]
+      FROM [ServiceTransaction] AS [s]
+      INNER JOIN [ServiceNumber] AS [s0] ON [s].[ServiceNumberId] = [s0].[Id]
+      WHERE ([s0].[CreationDate] >= @__8__locals1_filter_from_0) AND ([s0].[CreationDate] <= @__8__locals1_filter_to_1)
+      ORDER BY [s].[Id]
+      OFFSET @__p_2 ROWS FETCH NEXT @__p_3 ROWS ONLY
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__8__locals1_filter_from_0='?' (DbType = DateTime2), @__8__locals1_filter_to_1='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+      SELECT COUNT(*)
+      FROM [ServiceTransaction] AS [s]
+      INNER JOIN [ServiceNumber] AS [s0] ON [s].[ServiceNumberId] = [s0].[Id]
+      WHERE ([s0].[CreationDate] >= @__8__locals1_filter_from_0) AND ([s0].[CreationDate] <= @__8__locals1_filter_to_1)
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[2]
+      Executed action method WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 7.0951ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[WePayOffer.DAL.Entity.ServiceTransaction, WePayOffer.DAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[2]
+      Executed action WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal) in 18.1748ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST http://localhost:44382/Wallet/Filter application/x-www-form-urlencoded;+charset=UTF-8 1534 - 200 - application/json;+charset=utf-8 23.5238ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://localhost:44382/Wallet/Filter application/x-www-form-urlencoded;+charset=UTF-8 1524
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[3]
+      Route matched with {action = "Filter", controller = "Wallet"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Filter(WePayOffer.BL.Models.FilterVM) on controller WePayOffer.Portal.Controllers.WalletController (WePayOffer.Portal).
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[1]
+      Executing action method WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal) - Validation state: Invalid
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 6.0.9 initialized 'ApplicationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.9' with options: None
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+      SELECT [t].[Id], [t].[CreationDate], [t].[FunctionId], [t].[IsSucceed], [t].[RequestId], [t].[ResponseMessage], [t].[ServiceNumberId], [s0].[Id], [s0].[CreationDate], [s0].[Number], [s0].[OfferId], [s0].[StatusId]
+      FROM (
+          SELECT [s].[Id], [s].[CreationDate], [s].[FunctionId], [s].[IsSucceed], [s].[RequestId], [s].[ResponseMessage], [s].[ServiceNumberId]
+          FROM [ServiceTransaction] AS [s]
+          ORDER BY [s].[Id]
+          OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+      ) AS [t]
+      INNER JOIN [ServiceNumber] AS [s0] ON [t].[ServiceNumberId] = [s0].[Id]
+      ORDER BY [t].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT COUNT(*)
+      FROM [ServiceTransaction] AS [s]
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[2]
+      Executed action method WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 6.6174ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[WePayOffer.DAL.Entity.ServiceTransaction, WePayOffer.DAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[2]
+      Executed action WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal) in 17.3591ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST http://localhost:44382/Wallet/Filter application/x-www-form-urlencoded;+charset=UTF-8 1524 - 200 - application/json;+charset=utf-8 22.6868ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://localhost:44382/Wallet/Filter application/x-www-form-urlencoded;+charset=UTF-8 1514
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[3]
+      Route matched with {action = "Filter", controller = "Wallet"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Filter(WePayOffer.BL.Models.FilterVM) on controller WePayOffer.Portal.Controllers.WalletController (WePayOffer.Portal).
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[1]
+      Executing action method WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal) - Validation state: Invalid
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 6.0.9 initialized 'ApplicationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.9' with options: None
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+      SELECT [t].[Id], [t].[CreationDate], [t].[FunctionId], [t].[IsSucceed], [t].[RequestId], [t].[ResponseMessage], [t].[ServiceNumberId], [s0].[Id], [s0].[CreationDate], [s0].[Number], [s0].[OfferId], [s0].[StatusId]
+      FROM (
+          SELECT [s].[Id], [s].[CreationDate], [s].[FunctionId], [s].[IsSucceed], [s].[RequestId], [s].[ResponseMessage], [s].[ServiceNumberId]
+          FROM [ServiceTransaction] AS [s]
+          ORDER BY [s].[Id]
+          OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+      ) AS [t]
+      INNER JOIN [ServiceNumber] AS [s0] ON [t].[ServiceNumberId] = [s0].[Id]
+      ORDER BY [t].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT COUNT(*)
+      FROM [ServiceTransaction] AS [s]
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[2]
+      Executed action method WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 5.2166ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[WePayOffer.DAL.Entity.ServiceTransaction, WePayOffer.DAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[2]
+      Executed action WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal) in 15.5579ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST http://localhost:44382/Wallet/Filter application/x-www-form-urlencoded;+charset=UTF-8 1514 - 200 - application/json;+charset=utf-8 20.7461ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://localhost:44382/Wallet/Filter application/x-www-form-urlencoded;+charset=UTF-8 1524
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[3]
+      Route matched with {action = "Filter", controller = "Wallet"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Filter(WePayOffer.BL.Models.FilterVM) on controller WePayOffer.Portal.Controllers.WalletController (WePayOffer.Portal).
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[1]
+      Executing action method WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal) - Validation state: Invalid
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 6.0.9 initialized 'ApplicationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.9' with options: None
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+      SELECT [t].[Id], [t].[CreationDate], [t].[FunctionId], [t].[IsSucceed], [t].[RequestId], [t].[ResponseMessage], [t].[ServiceNumberId], [s0].[Id], [s0].[CreationDate], [s0].[Number], [s0].[OfferId], [s0].[StatusId]
+      FROM (
+          SELECT [s].[Id], [s].[CreationDate], [s].[FunctionId], [s].[IsSucceed], [s].[RequestId], [s].[ResponseMessage], [s].[ServiceNumberId]
+          FROM [ServiceTransaction] AS [s]
+          ORDER BY [s].[Id]
+          OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+      ) AS [t]
+      INNER JOIN [ServiceNumber] AS [s0] ON [t].[ServiceNumberId] = [s0].[Id]
+      ORDER BY [t].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT COUNT(*)
+      FROM [ServiceTransaction] AS [s]
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[2]
+      Executed action method WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 5.2143ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[WePayOffer.DAL.Entity.ServiceTransaction, WePayOffer.DAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[2]
+      Executed action WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal) in 16.1235ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST http://localhost:44382/Wallet/Filter application/x-www-form-urlencoded;+charset=UTF-8 1524 - 200 - application/json;+charset=utf-8 21.6569ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://localhost:44382/Wallet/Filter application/x-www-form-urlencoded;+charset=UTF-8 1524
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[3]
+      Route matched with {action = "Filter", controller = "Wallet"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Filter(WePayOffer.BL.Models.FilterVM) on controller WePayOffer.Portal.Controllers.WalletController (WePayOffer.Portal).
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[1]
+      Executing action method WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal) - Validation state: Invalid
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 6.0.9 initialized 'ApplicationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.9' with options: None
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+      SELECT [t].[Id], [t].[CreationDate], [t].[FunctionId], [t].[IsSucceed], [t].[RequestId], [t].[ResponseMessage], [t].[ServiceNumberId], [s0].[Id], [s0].[CreationDate], [s0].[Number], [s0].[OfferId], [s0].[StatusId]
+      FROM (
+          SELECT [s].[Id], [s].[CreationDate], [s].[FunctionId], [s].[IsSucceed], [s].[RequestId], [s].[ResponseMessage], [s].[ServiceNumberId]
+          FROM [ServiceTransaction] AS [s]
+          ORDER BY [s].[Id]
+          OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+      ) AS [t]
+      INNER JOIN [ServiceNumber] AS [s0] ON [t].[ServiceNumberId] = [s0].[Id]
+      ORDER BY [t].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT COUNT(*)
+      FROM [ServiceTransaction] AS [s]
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[2]
+      Executed action method WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 11.3479ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[WePayOffer.DAL.Entity.ServiceTransaction, WePayOffer.DAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[2]
+      Executed action WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal) in 21.9594ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST http://localhost:44382/Wallet/Filter application/x-www-form-urlencoded;+charset=UTF-8 1524 - 200 - application/json;+charset=utf-8 28.1504ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://localhost:44382/Wallet/Filter application/x-www-form-urlencoded;+charset=UTF-8 1524
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[3]
+      Route matched with {action = "Filter", controller = "Wallet"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Filter(WePayOffer.BL.Models.FilterVM) on controller WePayOffer.Portal.Controllers.WalletController (WePayOffer.Portal).
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[1]
+      Executing action method WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal) - Validation state: Invalid
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 6.0.9 initialized 'ApplicationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.9' with options: None
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+      SELECT [t].[Id], [t].[CreationDate], [t].[FunctionId], [t].[IsSucceed], [t].[RequestId], [t].[ResponseMessage], [t].[ServiceNumberId], [s0].[Id], [s0].[CreationDate], [s0].[Number], [s0].[OfferId], [s0].[StatusId]
+      FROM (
+          SELECT [s].[Id], [s].[CreationDate], [s].[FunctionId], [s].[IsSucceed], [s].[RequestId], [s].[ResponseMessage], [s].[ServiceNumberId]
+          FROM [ServiceTransaction] AS [s]
+          ORDER BY [s].[Id]
+          OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+      ) AS [t]
+      INNER JOIN [ServiceNumber] AS [s0] ON [t].[ServiceNumberId] = [s0].[Id]
+      ORDER BY [t].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT COUNT(*)
+      FROM [ServiceTransaction] AS [s]
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[2]
+      Executed action method WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 4.9442ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[WePayOffer.DAL.Entity.ServiceTransaction, WePayOffer.DAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[2]
+      Executed action WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal) in 15.5428ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST http://localhost:44382/Wallet/Filter application/x-www-form-urlencoded;+charset=UTF-8 1524 - 200 - application/json;+charset=utf-8 21.3223ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://localhost:44382/Wallet/Filter application/x-www-form-urlencoded;+charset=UTF-8 1524
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[3]
+      Route matched with {action = "Filter", controller = "Wallet"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Filter(WePayOffer.BL.Models.FilterVM) on controller WePayOffer.Portal.Controllers.WalletController (WePayOffer.Portal).
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[1]
+      Executing action method WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal) - Validation state: Invalid
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 6.0.9 initialized 'ApplicationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.9' with options: None
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+      SELECT [t].[Id], [t].[CreationDate], [t].[FunctionId], [t].[IsSucceed], [t].[RequestId], [t].[ResponseMessage], [t].[ServiceNumberId], [s0].[Id], [s0].[CreationDate], [s0].[Number], [s0].[OfferId], [s0].[StatusId]
+      FROM (
+          SELECT [s].[Id], [s].[CreationDate], [s].[FunctionId], [s].[IsSucceed], [s].[RequestId], [s].[ResponseMessage], [s].[ServiceNumberId]
+          FROM [ServiceTransaction] AS [s]
+          ORDER BY [s].[Id]
+          OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+      ) AS [t]
+      INNER JOIN [ServiceNumber] AS [s0] ON [t].[ServiceNumberId] = [s0].[Id]
+      ORDER BY [t].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT COUNT(*)
+      FROM [ServiceTransaction] AS [s]
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[2]
+      Executed action method WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 5.5681ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[WePayOffer.DAL.Entity.ServiceTransaction, WePayOffer.DAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[2]
+      Executed action WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal) in 16.8254ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST http://localhost:44382/Wallet/Filter application/x-www-form-urlencoded;+charset=UTF-8 1524 - 200 - application/json;+charset=utf-8 22.5500ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://localhost:44382/Wallet/Filter application/x-www-form-urlencoded;+charset=UTF-8 1534
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[3]
+      Route matched with {action = "Filter", controller = "Wallet"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Filter(WePayOffer.BL.Models.FilterVM) on controller WePayOffer.Portal.Controllers.WalletController (WePayOffer.Portal).
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[1]
+      Executing action method WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal) - Validation state: Invalid
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 6.0.9 initialized 'ApplicationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.9' with options: None
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (2ms) [Parameters=[@__8__locals1_filter_from_0='?' (DbType = DateTime2), @__8__locals1_filter_to_1='?' (DbType = DateTime2), @__p_2='?' (DbType = Int32), @__p_3='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+      SELECT [s].[Id], [s].[CreationDate], [s].[FunctionId], [s].[IsSucceed], [s].[RequestId], [s].[ResponseMessage], [s].[ServiceNumberId], [s0].[Id], [s0].[CreationDate], [s0].[Number], [s0].[OfferId], [s0].[StatusId]
+      FROM [ServiceTransaction] AS [s]
+      INNER JOIN [ServiceNumber] AS [s0] ON [s].[ServiceNumberId] = [s0].[Id]
+      WHERE ([s0].[CreationDate] >= @__8__locals1_filter_from_0) AND ([s0].[CreationDate] <= @__8__locals1_filter_to_1)
+      ORDER BY [s].[Id]
+      OFFSET @__p_2 ROWS FETCH NEXT @__p_3 ROWS ONLY
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[@__8__locals1_filter_from_0='?' (DbType = DateTime2), @__8__locals1_filter_to_1='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+      SELECT COUNT(*)
+      FROM [ServiceTransaction] AS [s]
+      INNER JOIN [ServiceNumber] AS [s0] ON [s].[ServiceNumberId] = [s0].[Id]
+      WHERE ([s0].[CreationDate] >= @__8__locals1_filter_from_0) AND ([s0].[CreationDate] <= @__8__locals1_filter_to_1)
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[2]
+      Executed action method WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 6.4974ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[WePayOffer.DAL.Entity.ServiceTransaction, WePayOffer.DAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[2]
+      Executed action WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal) in 17.2684ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST http://localhost:44382/Wallet/Filter application/x-www-form-urlencoded;+charset=UTF-8 1534 - 200 - application/json;+charset=utf-8 22.8280ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://localhost:44382/Wallet/Filter application/x-www-form-urlencoded;+charset=UTF-8 1534
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[3]
+      Route matched with {action = "Filter", controller = "Wallet"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Filter(WePayOffer.BL.Models.FilterVM) on controller WePayOffer.Portal.Controllers.WalletController (WePayOffer.Portal).
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[1]
+      Executing action method WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal) - Validation state: Invalid
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 6.0.9 initialized 'ApplicationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.9' with options: None
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[@__8__locals1_filter_from_0='?' (DbType = DateTime2), @__8__locals1_filter_to_1='?' (DbType = DateTime2), @__p_2='?' (DbType = Int32), @__p_3='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+      SELECT [s].[Id], [s].[CreationDate], [s].[FunctionId], [s].[IsSucceed], [s].[RequestId], [s].[ResponseMessage], [s].[ServiceNumberId], [s0].[Id], [s0].[CreationDate], [s0].[Number], [s0].[OfferId], [s0].[StatusId]
+      FROM [ServiceTransaction] AS [s]
+      INNER JOIN [ServiceNumber] AS [s0] ON [s].[ServiceNumberId] = [s0].[Id]
+      WHERE ([s0].[CreationDate] >= @__8__locals1_filter_from_0) AND ([s0].[CreationDate] <= @__8__locals1_filter_to_1)
+      ORDER BY [s].[Id]
+      OFFSET @__p_2 ROWS FETCH NEXT @__p_3 ROWS ONLY
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[@__8__locals1_filter_from_0='?' (DbType = DateTime2), @__8__locals1_filter_to_1='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+      SELECT COUNT(*)
+      FROM [ServiceTransaction] AS [s]
+      INNER JOIN [ServiceNumber] AS [s0] ON [s].[ServiceNumberId] = [s0].[Id]
+      WHERE ([s0].[CreationDate] >= @__8__locals1_filter_from_0) AND ([s0].[CreationDate] <= @__8__locals1_filter_to_1)
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[2]
+      Executed action method WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 4.5184ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[WePayOffer.DAL.Entity.ServiceTransaction, WePayOffer.DAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[2]
+      Executed action WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal) in 15.409ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST http://localhost:44382/Wallet/Filter application/x-www-form-urlencoded;+charset=UTF-8 1534 - 200 - application/json;+charset=utf-8 21.1049ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://localhost:44382/Wallet/Filter application/x-www-form-urlencoded;+charset=UTF-8 1534
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[3]
+      Route matched with {action = "Filter", controller = "Wallet"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Filter(WePayOffer.BL.Models.FilterVM) on controller WePayOffer.Portal.Controllers.WalletController (WePayOffer.Portal).
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[1]
+      Executing action method WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal) - Validation state: Invalid
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 6.0.9 initialized 'ApplicationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.9' with options: None
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[@__8__locals1_filter_from_0='?' (DbType = DateTime2), @__8__locals1_filter_to_1='?' (DbType = DateTime2), @__p_2='?' (DbType = Int32), @__p_3='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+      SELECT [s].[Id], [s].[CreationDate], [s].[FunctionId], [s].[IsSucceed], [s].[RequestId], [s].[ResponseMessage], [s].[ServiceNumberId], [s0].[Id], [s0].[CreationDate], [s0].[Number], [s0].[OfferId], [s0].[StatusId]
+      FROM [ServiceTransaction] AS [s]
+      INNER JOIN [ServiceNumber] AS [s0] ON [s].[ServiceNumberId] = [s0].[Id]
+      WHERE ([s0].[CreationDate] >= @__8__locals1_filter_from_0) AND ([s0].[CreationDate] <= @__8__locals1_filter_to_1)
+      ORDER BY [s].[Id]
+      OFFSET @__p_2 ROWS FETCH NEXT @__p_3 ROWS ONLY
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[@__8__locals1_filter_from_0='?' (DbType = DateTime2), @__8__locals1_filter_to_1='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+      SELECT COUNT(*)
+      FROM [ServiceTransaction] AS [s]
+      INNER JOIN [ServiceNumber] AS [s0] ON [s].[ServiceNumberId] = [s0].[Id]
+      WHERE ([s0].[CreationDate] >= @__8__locals1_filter_from_0) AND ([s0].[CreationDate] <= @__8__locals1_filter_to_1)
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[2]
+      Executed action method WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 4.6176ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[WePayOffer.DAL.Entity.ServiceTransaction, WePayOffer.DAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[2]
+      Executed action WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal) in 15.0403ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST http://localhost:44382/Wallet/Filter application/x-www-form-urlencoded;+charset=UTF-8 1534 - 200 - application/json;+charset=utf-8 20.1943ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://localhost:44382/Wallet/Filter application/x-www-form-urlencoded;+charset=UTF-8 1534
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[3]
+      Route matched with {action = "Filter", controller = "Wallet"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Filter(WePayOffer.BL.Models.FilterVM) on controller WePayOffer.Portal.Controllers.WalletController (WePayOffer.Portal).
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[1]
+      Executing action method WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal) - Validation state: Invalid
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 6.0.9 initialized 'ApplicationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.9' with options: None
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[@__8__locals1_filter_from_0='?' (DbType = DateTime2), @__8__locals1_filter_to_1='?' (DbType = DateTime2), @__p_2='?' (DbType = Int32), @__p_3='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+      SELECT [s].[Id], [s].[CreationDate], [s].[FunctionId], [s].[IsSucceed], [s].[RequestId], [s].[ResponseMessage], [s].[ServiceNumberId], [s0].[Id], [s0].[CreationDate], [s0].[Number], [s0].[OfferId], [s0].[StatusId]
+      FROM [ServiceTransaction] AS [s]
+      INNER JOIN [ServiceNumber] AS [s0] ON [s].[ServiceNumberId] = [s0].[Id]
+      WHERE ([s0].[CreationDate] >= @__8__locals1_filter_from_0) AND ([s0].[CreationDate] <= @__8__locals1_filter_to_1)
+      ORDER BY [s].[Id]
+      OFFSET @__p_2 ROWS FETCH NEXT @__p_3 ROWS ONLY
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[@__8__locals1_filter_from_0='?' (DbType = DateTime2), @__8__locals1_filter_to_1='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+      SELECT COUNT(*)
+      FROM [ServiceTransaction] AS [s]
+      INNER JOIN [ServiceNumber] AS [s0] ON [s].[ServiceNumberId] = [s0].[Id]
+      WHERE ([s0].[CreationDate] >= @__8__locals1_filter_from_0) AND ([s0].[CreationDate] <= @__8__locals1_filter_to_1)
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[2]
+      Executed action method WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 4.7029ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[WePayOffer.DAL.Entity.ServiceTransaction, WePayOffer.DAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[2]
+      Executed action WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal) in 15.3003ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST http://localhost:44382/Wallet/Filter application/x-www-form-urlencoded;+charset=UTF-8 1534 - 200 - application/json;+charset=utf-8 20.6719ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://localhost:44382/Wallet/Filter application/x-www-form-urlencoded;+charset=UTF-8 1534
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[3]
+      Route matched with {action = "Filter", controller = "Wallet"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Filter(WePayOffer.BL.Models.FilterVM) on controller WePayOffer.Portal.Controllers.WalletController (WePayOffer.Portal).
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[1]
+      Executing action method WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal) - Validation state: Invalid
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 6.0.9 initialized 'ApplicationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.9' with options: None
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[@__8__locals1_filter_from_0='?' (DbType = DateTime2), @__8__locals1_filter_to_1='?' (DbType = DateTime2), @__p_2='?' (DbType = Int32), @__p_3='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+      SELECT [s].[Id], [s].[CreationDate], [s].[FunctionId], [s].[IsSucceed], [s].[RequestId], [s].[ResponseMessage], [s].[ServiceNumberId], [s0].[Id], [s0].[CreationDate], [s0].[Number], [s0].[OfferId], [s0].[StatusId]
+      FROM [ServiceTransaction] AS [s]
+      INNER JOIN [ServiceNumber] AS [s0] ON [s].[ServiceNumberId] = [s0].[Id]
+      WHERE ([s0].[CreationDate] >= @__8__locals1_filter_from_0) AND ([s0].[CreationDate] <= @__8__locals1_filter_to_1)
+      ORDER BY [s].[Id]
+      OFFSET @__p_2 ROWS FETCH NEXT @__p_3 ROWS ONLY
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[@__8__locals1_filter_from_0='?' (DbType = DateTime2), @__8__locals1_filter_to_1='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+      SELECT COUNT(*)
+      FROM [ServiceTransaction] AS [s]
+      INNER JOIN [ServiceNumber] AS [s0] ON [s].[ServiceNumberId] = [s0].[Id]
+      WHERE ([s0].[CreationDate] >= @__8__locals1_filter_from_0) AND ([s0].[CreationDate] <= @__8__locals1_filter_to_1)
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[2]
+      Executed action method WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 4.4771ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[WePayOffer.DAL.Entity.ServiceTransaction, WePayOffer.DAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[2]
+      Executed action WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal) in 15.5992ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST http://localhost:44382/Wallet/Filter application/x-www-form-urlencoded;+charset=UTF-8 1534 - 200 - application/json;+charset=utf-8 20.7741ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://localhost:44382/Wallet/Filter application/x-www-form-urlencoded;+charset=UTF-8 1524
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[3]
+      Route matched with {action = "Filter", controller = "Wallet"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Filter(WePayOffer.BL.Models.FilterVM) on controller WePayOffer.Portal.Controllers.WalletController (WePayOffer.Portal).
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[1]
+      Executing action method WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal) - Validation state: Invalid
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 6.0.9 initialized 'ApplicationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.9' with options: None
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+      SELECT [t].[Id], [t].[CreationDate], [t].[FunctionId], [t].[IsSucceed], [t].[RequestId], [t].[ResponseMessage], [t].[ServiceNumberId], [s0].[Id], [s0].[CreationDate], [s0].[Number], [s0].[OfferId], [s0].[StatusId]
+      FROM (
+          SELECT [s].[Id], [s].[CreationDate], [s].[FunctionId], [s].[IsSucceed], [s].[RequestId], [s].[ResponseMessage], [s].[ServiceNumberId]
+          FROM [ServiceTransaction] AS [s]
+          ORDER BY [s].[Id]
+          OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+      ) AS [t]
+      INNER JOIN [ServiceNumber] AS [s0] ON [t].[ServiceNumberId] = [s0].[Id]
+      ORDER BY [t].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT COUNT(*)
+      FROM [ServiceTransaction] AS [s]
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[2]
+      Executed action method WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 4.8764ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[WePayOffer.DAL.Entity.ServiceTransaction, WePayOffer.DAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[2]
+      Executed action WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal) in 16.253ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST http://localhost:44382/Wallet/Filter application/x-www-form-urlencoded;+charset=UTF-8 1524 - 200 - application/json;+charset=utf-8 21.2476ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://localhost:44382/Wallet/Filter application/x-www-form-urlencoded;+charset=UTF-8 1514
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[3]
+      Route matched with {action = "Filter", controller = "Wallet"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Filter(WePayOffer.BL.Models.FilterVM) on controller WePayOffer.Portal.Controllers.WalletController (WePayOffer.Portal).
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[1]
+      Executing action method WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal) - Validation state: Invalid
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 6.0.9 initialized 'ApplicationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.9' with options: None
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+      SELECT [t].[Id], [t].[CreationDate], [t].[FunctionId], [t].[IsSucceed], [t].[RequestId], [t].[ResponseMessage], [t].[ServiceNumberId], [s0].[Id], [s0].[CreationDate], [s0].[Number], [s0].[OfferId], [s0].[StatusId]
+      FROM (
+          SELECT [s].[Id], [s].[CreationDate], [s].[FunctionId], [s].[IsSucceed], [s].[RequestId], [s].[ResponseMessage], [s].[ServiceNumberId]
+          FROM [ServiceTransaction] AS [s]
+          ORDER BY [s].[Id]
+          OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+      ) AS [t]
+      INNER JOIN [ServiceNumber] AS [s0] ON [t].[ServiceNumberId] = [s0].[Id]
+      ORDER BY [t].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT COUNT(*)
+      FROM [ServiceTransaction] AS [s]
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[2]
+      Executed action method WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 5.2211ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[WePayOffer.DAL.Entity.ServiceTransaction, WePayOffer.DAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[2]
+      Executed action WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal) in 16.0151ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'WePayOffer.Portal.Controllers.WalletController.Filter (WePayOffer.Portal)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST http://localhost:44382/Wallet/Filter application/x-www-form-urlencoded;+charset=UTF-8 1514 - 200 - application/json;+charset=utf-8 21.1075ms
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

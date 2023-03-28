@@ -1,0 +1,65 @@
+﻿@model LoginVM
+
+@{
+    Layout = null;
+}
+
+<head>
+    <title>Login</title>
+    <link href="~/assets/img/logoo.png" rel="icon">
+</head>
+
+<link href="~/theme.min.css" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
+
+<section class="login-section">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-5">
+                <div class="login-form">
+                    <img src="~/assets/img/logo.png" width="180" class="img-fluid my-5 pt-md-5">
+                    <form class="row" asp-controller="Account" asp-action="Login">
+
+                        <div asp-validation-summary="All" class="font-weight-bold text-danger"></div>
+
+                        <div class="form-group col-12">
+                            <label class="font-bold" style="font-family: 'Cairo', sans-serif;" asp-for="UserName">User Name</label>
+                            <input type="text" class="form-control" asp-for="UserName">
+                            <span asp-validation-for="UserName" class="text-danger font-weight-bold"></span>
+                        </div>
+                        <div class="form-group col-12 mb-4">
+                            <label class="font-bold" style="font-family: 'Cairo', sans-serif;" asp-for="Password">Password</label>
+                            <input type="password" class="form-control" asp-for="Password">
+                            <span asp-validation-for="Password" class="text-danger font-weight-bold"></span>
+                        </div>
+                        @*<div class="form-group col-12">
+                            <div class="col-xs-8 p-t-5">
+                                <input type="checkbox" asp-for="RememberMe" class="filled-in chk-col-pink">
+                                <label class="font-bold" style="font-family: 'Cairo', sans-serif;" asp-for="RememberMe">Remember Me</label>
+                            </div>
+                        </div>*@
+                        <div class="form-group my-5 col-12">
+                            <input type="submit" value="Login" class="btn btn-primary btn-block" />
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+
+            <div class="col-md-7 bg-login">
+                <h4 class="mt-1 pt-md-5 mb-0 font-bold" style="font-family: 'Cairo', sans-serif;">We Pay Offers Portal - BSS Team</h4>
+                <p class="font-16">
+                    Now! you can assign offers to customers with easy way just upload .csv file that contains on wallet numbers than submit this file
+                    to send your gifts.
+                </p>
+                <img src="~/assets/img/v-login.svg" class="img-fluid mt-1">
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="~/jquery-3.6.1.min.js"></script>
+<script src="~/jquery-validate/jquery.validate.min.js"></script>
+<script src="~/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+<script src="~/library.min.js"></script>
+

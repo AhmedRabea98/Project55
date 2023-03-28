@@ -1,0 +1,58 @@
+﻿
+@{
+    ViewBag.Title = "Home";
+}
+
+@section ScriptTag{
+    <script src="~/assets/js/Custom.js"></script>
+}
+
+<main id="main" class="main">
+    <!-- Bread Crumb -->
+    @await Html.PartialAsync("~/Views/Partials/Home/Index/BreadCrumb.cshtml")
+
+
+    <section class="section dashboard">
+        <div class="row">
+
+            <!-- Left side columns -->
+            <div class="col-lg-8">
+                <div class="row">
+
+
+                    <!-- New Count -->
+                    @await Html.PartialAsync("~/Views/Partials/Home/Index/NewCount.cshtml")
+
+                    <!-- In Progress Count -->
+                    @await Html.PartialAsync("~/Views/Partials/Home/Index/InProgressCount.cshtml")
+
+                    <!-- Failed Count -->
+                    @await Html.PartialAsync("~/Views/Partials/Home/Index/FailedCount.cshtml")
+
+                    <!-- Success Count -->
+                    @await Html.PartialAsync("~/Views/Partials/Home/Index/SuccessCount.cshtml")
+
+                    <!-- Total Numbers Count -->
+                    @await Html.PartialAsync("~/Views/Partials/Home/Index/TotalNumbers.cshtml")
+
+                    <!-- Total Offers Count -->
+                    @await Html.PartialAsync("~/Views/Partials/Home/Index/TotalOffers.cshtml")
+
+                    <!-- Reports -->
+                    @*@await Html.PartialAsync("~/Views/Partials/Home/Index/Reports.cshtml")*@
+
+                </div>
+            </div>
+
+
+            <!-- Right side columns -->
+            <div class="col-lg-4">
+                <!-- Recent Activity -->
+                @await Html.PartialAsync("~/Views/Partials/Home/Index/RecentActivities.cshtml")
+            </div>
+        </div>
+    </section>
+
+</main>
+
+

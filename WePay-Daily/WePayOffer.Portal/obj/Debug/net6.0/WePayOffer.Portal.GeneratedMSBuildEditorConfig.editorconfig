@@ -1,0 +1,129 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = WePayOffer.Portal
+build_property.RootNamespace = WePayOffer.Portal
+build_property.ProjectDir = C:\Users\ahmed.r.abdelazim\Desktop\hassan 011\WePay-Daily\WePayOffer.Portal\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\ahmed.r.abdelazim\Desktop\hassan 011\WePay-Daily\WePayOffer.Portal
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/ahmed.r.abdelazim/Desktop/hassan 011/WePay-Daily/WePayOffer.Portal/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ahmed.r.abdelazim/Desktop/hassan 011/WePay-Daily/WePayOffer.Portal/Views/Account/Registration.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3RyYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ahmed.r.abdelazim/Desktop/hassan 011/WePay-Daily/WePayOffer.Portal/Views/Bulk/UploadBulk.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnVsa1xVcGxvYWRCdWxrLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ahmed.r.abdelazim/Desktop/hassan 011/WePay-Daily/WePayOffer.Portal/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ahmed.r.abdelazim/Desktop/hassan 011/WePay-Daily/WePayOffer.Portal/Views/Layout/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGF5b3V0XF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ahmed.r.abdelazim/Desktop/hassan 011/WePay-Daily/WePayOffer.Portal/Views/Partials/Account/Registration/BreadCrumb.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlhbHNcQWNjb3VudFxSZWdpc3RyYXRpb25cQnJlYWRDcnVtYi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ahmed.r.abdelazim/Desktop/hassan 011/WePay-Daily/WePayOffer.Portal/Views/Partials/Account/Registration/Form.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlhbHNcQWNjb3VudFxSZWdpc3RyYXRpb25cRm9ybS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ahmed.r.abdelazim/Desktop/hassan 011/WePay-Daily/WePayOffer.Portal/Views/Partials/Bulk/UploadBulk/BreadCrumb.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlhbHNcQnVsa1xVcGxvYWRCdWxrXEJyZWFkQ3J1bWIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ahmed.r.abdelazim/Desktop/hassan 011/WePay-Daily/WePayOffer.Portal/Views/Partials/Bulk/UploadBulk/Upload.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlhbHNcQnVsa1xVcGxvYWRCdWxrXFVwbG9hZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ahmed.r.abdelazim/Desktop/hassan 011/WePay-Daily/WePayOffer.Portal/Views/Partials/Home/Index/BreadCrumb.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlhbHNcSG9tZVxJbmRleFxCcmVhZENydW1iLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ahmed.r.abdelazim/Desktop/hassan 011/WePay-Daily/WePayOffer.Portal/Views/Partials/Home/Index/FailedCount.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlhbHNcSG9tZVxJbmRleFxGYWlsZWRDb3VudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ahmed.r.abdelazim/Desktop/hassan 011/WePay-Daily/WePayOffer.Portal/Views/Partials/Home/Index/InProgressCount.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlhbHNcSG9tZVxJbmRleFxJblByb2dyZXNzQ291bnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ahmed.r.abdelazim/Desktop/hassan 011/WePay-Daily/WePayOffer.Portal/Views/Partials/Home/Index/NewCount.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlhbHNcSG9tZVxJbmRleFxOZXdDb3VudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ahmed.r.abdelazim/Desktop/hassan 011/WePay-Daily/WePayOffer.Portal/Views/Partials/Home/Index/RecentActivities.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlhbHNcSG9tZVxJbmRleFxSZWNlbnRBY3Rpdml0aWVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ahmed.r.abdelazim/Desktop/hassan 011/WePay-Daily/WePayOffer.Portal/Views/Partials/Home/Index/Reports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlhbHNcSG9tZVxJbmRleFxSZXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ahmed.r.abdelazim/Desktop/hassan 011/WePay-Daily/WePayOffer.Portal/Views/Partials/Home/Index/SuccessCount.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlhbHNcSG9tZVxJbmRleFxTdWNjZXNzQ291bnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ahmed.r.abdelazim/Desktop/hassan 011/WePay-Daily/WePayOffer.Portal/Views/Partials/Home/Index/TotalNumbers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlhbHNcSG9tZVxJbmRleFxUb3RhbE51bWJlcnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ahmed.r.abdelazim/Desktop/hassan 011/WePay-Daily/WePayOffer.Portal/Views/Partials/Home/Index/TotalOffers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlhbHNcSG9tZVxJbmRleFxUb3RhbE9mZmVycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ahmed.r.abdelazim/Desktop/hassan 011/WePay-Daily/WePayOffer.Portal/Views/Partials/Users/Index/BreadCrumb.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlhbHNcVXNlcnNcSW5kZXhcQnJlYWRDcnVtYi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ahmed.r.abdelazim/Desktop/hassan 011/WePay-Daily/WePayOffer.Portal/Views/Partials/Users/Index/Result.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlhbHNcVXNlcnNcSW5kZXhcUmVzdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ahmed.r.abdelazim/Desktop/hassan 011/WePay-Daily/WePayOffer.Portal/Views/Partials/Wallet/Search/BreadCrumb.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlhbHNcV2FsbGV0XFNlYXJjaFxCcmVhZENydW1iLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ahmed.r.abdelazim/Desktop/hassan 011/WePay-Daily/WePayOffer.Portal/Views/Partials/Wallet/Search/Filter.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlhbHNcV2FsbGV0XFNlYXJjaFxGaWx0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ahmed.r.abdelazim/Desktop/hassan 011/WePay-Daily/WePayOffer.Portal/Views/Partials/Wallet/Search/Result.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlhbHNcV2FsbGV0XFNlYXJjaFxSZXN1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ahmed.r.abdelazim/Desktop/hassan 011/WePay-Daily/WePayOffer.Portal/Views/Partials/Wallet/Search/Scripts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlhbHNcV2FsbGV0XFNlYXJjaFxTY3JpcHRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ahmed.r.abdelazim/Desktop/hassan 011/WePay-Daily/WePayOffer.Portal/Views/Users/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ahmed.r.abdelazim/Desktop/hassan 011/WePay-Daily/WePayOffer.Portal/Views/Wallet/Search.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2FsbGV0XFNlYXJjaC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ahmed.r.abdelazim/Desktop/hassan 011/WePay-Daily/WePayOffer.Portal/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ahmed.r.abdelazim/Desktop/hassan 011/WePay-Daily/WePayOffer.Portal/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

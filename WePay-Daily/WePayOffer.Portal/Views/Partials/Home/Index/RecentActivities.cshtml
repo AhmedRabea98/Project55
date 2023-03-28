@@ -1,0 +1,174 @@
+﻿
+<div class="card">
+
+    <div class="card-body">
+        <h5 class="card-title">Recent Uploaded Numbers <span>| @DateTime.Now.Year</span></h5>
+
+        <div class="activity">
+
+            <div class="row pb-3">
+                <div class="col-xl-6">
+                    <div class="activity-item d-flex">
+                        <div class="activite-label fw-bold text-dark">January</div>
+                        <i class='bi bi-circle-fill activity-badge text-success align-self-start'></i>
+                        <div class="activity-content">
+                            <a href="#" class="fw-bold text-dark">
+                            @{
+                                var January = await serviceNumbers.GetAsync(a => a.CreationDate.Year == DateTime.Now.Year && a.CreationDate.Month == 1);
+                                <span>@January.Count()</span>
+                            }
+                            </a>
+                        </div>
+                    </div><!-- End activity item-->
+
+                    <div class="activity-item d-flex">
+                        <div class="activite-label fw-bold text-dark">February</div>
+                        <i class='bi bi-circle-fill activity-badge text-success align-self-start'></i>
+                        <div class="activity-content">
+                            <a href="#" class="fw-bold text-dark">
+                                @{
+                                    var February = await serviceNumbers.GetAsync(a => a.CreationDate.Year == DateTime.Now.Year && a.CreationDate.Month == 2);
+                                    <span>@February.Count()</span>
+                                }
+                            </a>
+                        </div>
+                    </div><!-- End activity item-->
+
+                    <div class="activity-item d-flex">
+                        <div class="activite-label fw-bold text-dark">March</div>
+                        <i class='bi bi-circle-fill activity-badge text-success align-self-start'></i>
+                        <div class="activity-content">
+                            <a href="#" class="fw-bold text-dark">
+                                @{
+                                    var March = await serviceNumbers.GetAsync(a => a.CreationDate.Year == DateTime.Now.Year && a.CreationDate.Month == 3);
+                                    <span>@March.Count()</span>
+                                }
+                            </a>
+                        </div>
+                    </div><!-- End activity item-->
+
+                    <div class="activity-item d-flex">
+                        <div class="activite-label fw-bold text-dark">April </div>
+                        <i class='bi bi-circle-fill activity-badge text-success align-self-start'></i>
+                        <div class="activity-content">
+                            <a href="#" class="fw-bold text-dark">
+                                @{
+                                    var April = await serviceNumbers.GetAsync(a => a.CreationDate.Year == DateTime.Now.Year && a.CreationDate.Month == 4);
+                                    <span>@April.Count()</span>
+                                }
+                            </a>
+                        </div>
+                    </div><!-- End activity item-->
+
+                    <div class="activity-item d-flex">
+                        <div class="activite-label fw-bold text-dark">May </div>
+                        <i class='bi bi-circle-fill activity-badge text-success align-self-start'></i>
+                        <div class="activity-content">
+                            <a href="#" class="fw-bold text-dark">
+                                @{
+                                    var May = await serviceNumbers.GetAsync(a => a.CreationDate.Year == DateTime.Now.Year && a.CreationDate.Month == 5);
+                                    <span>@May.Count()</span>
+                                }
+                            </a>
+                        </div>
+                    </div><!-- End activity item-->
+
+                    <div class="activity-item d-flex">
+                        <div class="activite-label fw-bold text-dark">June </div>
+                        <i class='bi bi-circle-fill activity-badge text-success align-self-start'></i>
+                        <div class="activity-content">
+                            <a href="#" class="fw-bold text-dark">
+                                @{
+                                    var June = await serviceNumbers.GetAsync(a => a.CreationDate.Year == DateTime.Now.Year && a.CreationDate.Month == 6);
+                                    <span>@June.Count()</span>
+                                }
+                            </a>
+                        </div>
+                    </div><!-- End activity item-->
+                </div>
+
+                <div class="col-xl-6">
+                    <div class="activity-item d-flex">
+                        <div class="activite-label fw-bold text-dark">July </div>
+                        <i class='bi bi-circle-fill activity-badge text-success align-self-start'></i>
+                        <div class="activity-content">
+                            <a href="#" class="fw-bold text-dark">
+                                @{
+                                    var July = await serviceNumbers.GetAsync(a => a.CreationDate.Year == DateTime.Now.Year && a.CreationDate.Month == 7);
+                                    <span>@July.Count()</span>
+                                }
+                            </a>
+                        </div>
+                    </div><!-- End activity item-->
+
+                    <div class="activity-item d-flex">
+                        <div class="activite-label fw-bold text-dark">August </div>
+                        <i class='bi bi-circle-fill activity-badge text-success align-self-start'></i>
+                        <div class="activity-content">
+                            <a href="#" class="fw-bold text-dark">
+                                @{
+                                    var August = await serviceNumbers.GetAsync(a => a.CreationDate.Year == DateTime.Now.Year && a.CreationDate.Month == 8);
+                                    <span>@August.Count()</span>
+                                }
+                            </a>
+                        </div>
+                    </div><!-- End activity item-->
+
+                    <div class="activity-item d-flex">
+                        <div class="activite-label fw-bold text-dark">Septem. </div>
+                        <i class='bi bi-circle-fill activity-badge text-success align-self-start'></i>
+                        <div class="activity-content">
+                            <a href="#" class="fw-bold text-dark">
+                                @{
+                                    var Septem = await serviceNumbers.GetAsync(a => a.CreationDate.Year == DateTime.Now.Year && a.CreationDate.Month == 9);
+                                    <span>@Septem.Count()</span>
+                                }
+                            </a>
+                        </div>
+                    </div><!-- End activity item-->
+
+                    <div class="activity-item d-flex">
+                        <div class="activite-label fw-bold text-dark">October </div>
+                        <i class='bi bi-circle-fill activity-badge text-success align-self-start'></i>
+                        <div class="activity-content">
+                            <a href="#" class="fw-bold text-dark">
+                                @{
+                                    var October = await serviceNumbers.GetAsync(a => a.CreationDate.Year == DateTime.Now.Year && a.CreationDate.Month == 10);
+                                    <span>@October.Count()</span>
+                                }
+                            </a>
+                        </div>
+                    </div><!-- End activity item-->
+
+                    <div class="activity-item d-flex">
+                        <div class="activite-label fw-bold text-dark">Nov. </div>
+                        <i class='bi bi-circle-fill activity-badge text-success align-self-start'></i>
+                        <div class="activity-content">
+                            <a href="#" class="fw-bold text-dark">
+                                @{
+                                    var Nov = await serviceNumbers.GetAsync(a => a.CreationDate.Year == DateTime.Now.Year && a.CreationDate.Month == 11);
+                                    <span>@Nov.Count()</span>
+                                }
+                            </a>
+                        </div>
+                    </div><!-- End activity item-->
+
+                    <div class="activity-item d-flex">
+                        <div class="activite-label fw-bold text-dark">Dec. </div>
+                        <i class='bi bi-circle-fill activity-badge text-success align-self-start'></i>
+                        <div class="activity-content">
+                            <a href="#" class="fw-bold text-dark">
+                                @{
+                                    var Dec = await serviceNumbers.GetAsync(a => a.CreationDate.Year == DateTime.Now.Year && a.CreationDate.Month == 12);
+                                    <span>@Dec.Count()</span>
+                                }
+                            </a>
+                        </div>
+                    </div><!-- End activity item-->
+                </div>
+            </div>
+            <br />
+        </div>
+
+    </div>
+</div>

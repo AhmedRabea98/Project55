@@ -1,0 +1,166 @@
+C:\Users\Ahmed El Gendy\source\repos\WePayOffer\WePayOffer.DAL\bin\Debug\net6.0\WePayOffer.DAL.deps.json
+C:\Users\Ahmed El Gendy\source\repos\WePayOffer\WePayOffer.DAL\bin\Debug\net6.0\WePayOffer.DAL.dll
+C:\Users\Ahmed El Gendy\source\repos\WePayOffer\WePayOffer.DAL\bin\Debug\net6.0\WePayOffer.DAL.pdb
+C:\Users\Ahmed El Gendy\source\repos\WePayOffer\WePayOffer.DAL\obj\Debug\net6.0\WePayOffer.DAL.csproj.AssemblyReference.cache
+C:\Users\Ahmed El Gendy\source\repos\WePayOffer\WePayOffer.DAL\obj\Debug\net6.0\WePayOffer.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ahmed El Gendy\source\repos\WePayOffer\WePayOffer.DAL\obj\Debug\net6.0\WePayOffer.DAL.AssemblyInfoInputs.cache
+C:\Users\Ahmed El Gendy\source\repos\WePayOffer\WePayOffer.DAL\obj\Debug\net6.0\WePayOffer.DAL.AssemblyInfo.cs
+C:\Users\Ahmed El Gendy\source\repos\WePayOffer\WePayOffer.DAL\obj\Debug\net6.0\WePayOffer.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Ahmed El Gendy\source\repos\WePayOffer\WePayOffer.DAL\obj\Debug\net6.0\WePayOffer.DAL.dll
+C:\Users\Ahmed El Gendy\source\repos\WePayOffer\WePayOffer.DAL\obj\Debug\net6.0\refint\WePayOffer.DAL.dll
+C:\Users\Ahmed El Gendy\source\repos\WePayOffer\WePayOffer.DAL\obj\Debug\net6.0\WePayOffer.DAL.pdb
+C:\Users\Ahmed El Gendy\source\repos\WePayOffer\WePayOffer.DAL\obj\Debug\net6.0\ref\WePayOffer.DAL.dll
+D:\My Work\0We\We Pay Offers\WePayOffer\WePayOffer.DAL\bin\Debug\net6.0\WePayOffer.DAL.deps.json
+D:\My Work\0We\We Pay Offers\WePayOffer\WePayOffer.DAL\bin\Debug\net6.0\WePayOffer.DAL.dll
+D:\My Work\0We\We Pay Offers\WePayOffer\WePayOffer.DAL\bin\Debug\net6.0\WePayOffer.DAL.pdb
+D:\My Work\0We\We Pay Offers\WePayOffer\WePayOffer.DAL\obj\Debug\net6.0\WePayOffer.DAL.csproj.AssemblyReference.cache
+D:\My Work\0We\We Pay Offers\WePayOffer\WePayOffer.DAL\obj\Debug\net6.0\WePayOffer.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\My Work\0We\We Pay Offers\WePayOffer\WePayOffer.DAL\obj\Debug\net6.0\WePayOffer.DAL.AssemblyInfoInputs.cache
+D:\My Work\0We\We Pay Offers\WePayOffer\WePayOffer.DAL\obj\Debug\net6.0\WePayOffer.DAL.AssemblyInfo.cs
+D:\My Work\0We\We Pay Offers\WePayOffer\WePayOffer.DAL\obj\Debug\net6.0\WePayOffer.DAL.csproj.CoreCompileInputs.cache
+D:\My Work\0We\We Pay Offers\WePayOffer\WePayOffer.DAL\obj\Debug\net6.0\WePayOffer.DAL.dll
+D:\My Work\0We\We Pay Offers\WePayOffer\WePayOffer.DAL\obj\Debug\net6.0\refint\WePayOffer.DAL.dll
+D:\My Work\0We\We Pay Offers\WePayOffer\WePayOffer.DAL\obj\Debug\net6.0\WePayOffer.DAL.pdb
+D:\My Work\0We\We Pay Offers\WePayOffer\WePayOffer.DAL\obj\Debug\net6.0\ref\WePayOffer.DAL.dll
+D:\My Work\0We\We Pay Offers\WePayOffer\WePayOffer.DAL\bin\Debug\net6.0\WePayOffer.DAL.runtimeconfig.json
+D:\My Work\0We\We Pay Offers\WePayOffer\WePayOffer.DAL\obj\Debug\net6.0\WePayOffer.DAL.genruntimeconfig.cache
+C:\Users\Ahmed.S.Moneer\Desktop\WePayOffer\WePayOffer.DAL\bin\Debug\net6.0\WePayOffer.DAL.deps.json
+C:\Users\Ahmed.S.Moneer\Desktop\WePayOffer\WePayOffer.DAL\bin\Debug\net6.0\WePayOffer.DAL.runtimeconfig.json
+C:\Users\Ahmed.S.Moneer\Desktop\WePayOffer\WePayOffer.DAL\bin\Debug\net6.0\WePayOffer.DAL.dll
+C:\Users\Ahmed.S.Moneer\Desktop\WePayOffer\WePayOffer.DAL\bin\Debug\net6.0\WePayOffer.DAL.pdb
+C:\Users\Ahmed.S.Moneer\Desktop\WePayOffer\WePayOffer.DAL\obj\Debug\net6.0\WePayOffer.DAL.csproj.AssemblyReference.cache
+C:\Users\Ahmed.S.Moneer\Desktop\WePayOffer\WePayOffer.DAL\obj\Debug\net6.0\WePayOffer.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ahmed.S.Moneer\Desktop\WePayOffer\WePayOffer.DAL\obj\Debug\net6.0\WePayOffer.DAL.AssemblyInfoInputs.cache
+C:\Users\Ahmed.S.Moneer\Desktop\WePayOffer\WePayOffer.DAL\obj\Debug\net6.0\WePayOffer.DAL.AssemblyInfo.cs
+C:\Users\Ahmed.S.Moneer\Desktop\WePayOffer\WePayOffer.DAL\obj\Debug\net6.0\WePayOffer.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Ahmed.S.Moneer\Desktop\WePayOffer\WePayOffer.DAL\obj\Debug\net6.0\WePayOffer.DAL.dll
+C:\Users\Ahmed.S.Moneer\Desktop\WePayOffer\WePayOffer.DAL\obj\Debug\net6.0\refint\WePayOffer.DAL.dll
+C:\Users\Ahmed.S.Moneer\Desktop\WePayOffer\WePayOffer.DAL\obj\Debug\net6.0\WePayOffer.DAL.pdb
+C:\Users\Ahmed.S.Moneer\Desktop\WePayOffer\WePayOffer.DAL\obj\Debug\net6.0\WePayOffer.DAL.genruntimeconfig.cache
+C:\Users\Ahmed.S.Moneer\Desktop\WePayOffer\WePayOffer.DAL\obj\Debug\net6.0\ref\WePayOffer.DAL.dll
+D:\crm\CRs\Eligibility Engine\Eligibility Engine\WePayOffer\WePayOffer.DAL\bin\Debug\net6.0\WePayOffer.DAL.deps.json
+D:\crm\CRs\Eligibility Engine\Eligibility Engine\WePayOffer\WePayOffer.DAL\bin\Debug\net6.0\WePayOffer.DAL.runtimeconfig.json
+D:\crm\CRs\Eligibility Engine\Eligibility Engine\WePayOffer\WePayOffer.DAL\bin\Debug\net6.0\WePayOffer.DAL.dll
+D:\crm\CRs\Eligibility Engine\Eligibility Engine\WePayOffer\WePayOffer.DAL\bin\Debug\net6.0\WePayOffer.DAL.pdb
+D:\crm\CRs\Eligibility Engine\Eligibility Engine\WePayOffer\WePayOffer.DAL\obj\Debug\net6.0\WePayOffer.DAL.csproj.AssemblyReference.cache
+D:\crm\CRs\Eligibility Engine\Eligibility Engine\WePayOffer\WePayOffer.DAL\obj\Debug\net6.0\WePayOffer.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\crm\CRs\Eligibility Engine\Eligibility Engine\WePayOffer\WePayOffer.DAL\obj\Debug\net6.0\WePayOffer.DAL.AssemblyInfoInputs.cache
+D:\crm\CRs\Eligibility Engine\Eligibility Engine\WePayOffer\WePayOffer.DAL\obj\Debug\net6.0\WePayOffer.DAL.AssemblyInfo.cs
+D:\crm\CRs\Eligibility Engine\Eligibility Engine\WePayOffer\WePayOffer.DAL\obj\Debug\net6.0\WePayOffer.DAL.csproj.CoreCompileInputs.cache
+D:\crm\CRs\Eligibility Engine\Eligibility Engine\WePayOffer\WePayOffer.DAL\obj\Debug\net6.0\WePayOffer.DAL.dll
+D:\crm\CRs\Eligibility Engine\Eligibility Engine\WePayOffer\WePayOffer.DAL\obj\Debug\net6.0\refint\WePayOffer.DAL.dll
+D:\crm\CRs\Eligibility Engine\Eligibility Engine\WePayOffer\WePayOffer.DAL\obj\Debug\net6.0\WePayOffer.DAL.pdb
+D:\crm\CRs\Eligibility Engine\Eligibility Engine\WePayOffer\WePayOffer.DAL\obj\Debug\net6.0\WePayOffer.DAL.genruntimeconfig.cache
+D:\crm\CRs\Eligibility Engine\Eligibility Engine\WePayOffer\WePayOffer.DAL\obj\Debug\net6.0\ref\WePayOffer.DAL.dll
+D:\crm\CRs\Eligibility Engine\WePayOffer\WePayOffer.DAL\bin\Debug\net6.0\WePayOffer.DAL.deps.json
+D:\crm\CRs\Eligibility Engine\WePayOffer\WePayOffer.DAL\bin\Debug\net6.0\WePayOffer.DAL.runtimeconfig.json
+D:\crm\CRs\Eligibility Engine\WePayOffer\WePayOffer.DAL\bin\Debug\net6.0\WePayOffer.DAL.dll
+D:\crm\CRs\Eligibility Engine\WePayOffer\WePayOffer.DAL\bin\Debug\net6.0\WePayOffer.DAL.pdb
+D:\crm\CRs\Eligibility Engine\WePayOffer\WePayOffer.DAL\obj\Debug\net6.0\WePayOffer.DAL.csproj.AssemblyReference.cache
+D:\crm\CRs\Eligibility Engine\WePayOffer\WePayOffer.DAL\obj\Debug\net6.0\WePayOffer.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\crm\CRs\Eligibility Engine\WePayOffer\WePayOffer.DAL\obj\Debug\net6.0\WePayOffer.DAL.AssemblyInfoInputs.cache
+D:\crm\CRs\Eligibility Engine\WePayOffer\WePayOffer.DAL\obj\Debug\net6.0\WePayOffer.DAL.AssemblyInfo.cs
+D:\crm\CRs\Eligibility Engine\WePayOffer\WePayOffer.DAL\obj\Debug\net6.0\WePayOffer.DAL.csproj.CoreCompileInputs.cache
+D:\crm\CRs\Eligibility Engine\WePayOffer\WePayOffer.DAL\obj\Debug\net6.0\WePayOffer.DAL.dll
+D:\crm\CRs\Eligibility Engine\WePayOffer\WePayOffer.DAL\obj\Debug\net6.0\refint\WePayOffer.DAL.dll
+D:\crm\CRs\Eligibility Engine\WePayOffer\WePayOffer.DAL\obj\Debug\net6.0\WePayOffer.DAL.pdb
+D:\crm\CRs\Eligibility Engine\WePayOffer\WePayOffer.DAL\obj\Debug\net6.0\WePayOffer.DAL.genruntimeconfig.cache
+D:\crm\CRs\Eligibility Engine\WePayOffer\WePayOffer.DAL\obj\Debug\net6.0\ref\WePayOffer.DAL.dll
+E:\Ebram\new2\WePayOffer3\WePayOffer\WePayOffer.DAL\bin\Debug\net6.0\WePayOffer.DAL.deps.json
+E:\Ebram\new2\WePayOffer3\WePayOffer\WePayOffer.DAL\bin\Debug\net6.0\WePayOffer.DAL.runtimeconfig.json
+E:\Ebram\new2\WePayOffer3\WePayOffer\WePayOffer.DAL\bin\Debug\net6.0\WePayOffer.DAL.dll
+E:\Ebram\new2\WePayOffer3\WePayOffer\WePayOffer.DAL\bin\Debug\net6.0\WePayOffer.DAL.pdb
+E:\Ebram\new2\WePayOffer3\WePayOffer\WePayOffer.DAL\obj\Debug\net6.0\WePayOffer.DAL.csproj.AssemblyReference.cache
+E:\Ebram\new2\WePayOffer3\WePayOffer\WePayOffer.DAL\obj\Debug\net6.0\WePayOffer.DAL.GeneratedMSBuildEditorConfig.editorconfig
+E:\Ebram\new2\WePayOffer3\WePayOffer\WePayOffer.DAL\obj\Debug\net6.0\WePayOffer.DAL.AssemblyInfoInputs.cache
+E:\Ebram\new2\WePayOffer3\WePayOffer\WePayOffer.DAL\obj\Debug\net6.0\WePayOffer.DAL.AssemblyInfo.cs
+E:\Ebram\new2\WePayOffer3\WePayOffer\WePayOffer.DAL\obj\Debug\net6.0\WePayOffer.DAL.csproj.CoreCompileInputs.cache
+E:\Ebram\new2\WePayOffer3\WePayOffer\WePayOffer.DAL\obj\Debug\net6.0\WePayOffer.DAL.dll
+E:\Ebram\new2\WePayOffer3\WePayOffer\WePayOffer.DAL\obj\Debug\net6.0\refint\WePayOffer.DAL.dll
+E:\Ebram\new2\WePayOffer3\WePayOffer\WePayOffer.DAL\obj\Debug\net6.0\WePayOffer.DAL.pdb
+E:\Ebram\new2\WePayOffer3\WePayOffer\WePayOffer.DAL\obj\Debug\net6.0\WePayOffer.DAL.genruntimeconfig.cache
+E:\Ebram\new2\WePayOffer3\WePayOffer\WePayOffer.DAL\obj\Debug\net6.0\ref\WePayOffer.DAL.dll
+E:\Samir\Master\Last Updated\WePayOffer\WePayOffer\WePayOffer.DAL\bin\Debug\net6.0\WePayOffer.DAL.deps.json
+E:\Samir\Master\Last Updated\WePayOffer\WePayOffer\WePayOffer.DAL\bin\Debug\net6.0\WePayOffer.DAL.runtimeconfig.json
+E:\Samir\Master\Last Updated\WePayOffer\WePayOffer\WePayOffer.DAL\bin\Debug\net6.0\WePayOffer.DAL.dll
+E:\Samir\Master\Last Updated\WePayOffer\WePayOffer\WePayOffer.DAL\bin\Debug\net6.0\WePayOffer.DAL.pdb
+E:\Samir\Master\Last Updated\WePayOffer\WePayOffer\WePayOffer.DAL\obj\Debug\net6.0\WePayOffer.DAL.csproj.AssemblyReference.cache
+E:\Samir\Master\Last Updated\WePayOffer\WePayOffer\WePayOffer.DAL\obj\Debug\net6.0\WePayOffer.DAL.GeneratedMSBuildEditorConfig.editorconfig
+E:\Samir\Master\Last Updated\WePayOffer\WePayOffer\WePayOffer.DAL\obj\Debug\net6.0\WePayOffer.DAL.AssemblyInfoInputs.cache
+E:\Samir\Master\Last Updated\WePayOffer\WePayOffer\WePayOffer.DAL\obj\Debug\net6.0\WePayOffer.DAL.AssemblyInfo.cs
+E:\Samir\Master\Last Updated\WePayOffer\WePayOffer\WePayOffer.DAL\obj\Debug\net6.0\WePayOffer.DAL.csproj.CoreCompileInputs.cache
+E:\Samir\Master\Last Updated\WePayOffer\WePayOffer\WePayOffer.DAL\obj\Debug\net6.0\WePayOffer.DAL.dll
+E:\Samir\Master\Last Updated\WePayOffer\WePayOffer\WePayOffer.DAL\obj\Debug\net6.0\refint\WePayOffer.DAL.dll
+E:\Samir\Master\Last Updated\WePayOffer\WePayOffer\WePayOffer.DAL\obj\Debug\net6.0\WePayOffer.DAL.pdb
+E:\Samir\Master\Last Updated\WePayOffer\WePayOffer\WePayOffer.DAL\obj\Debug\net6.0\WePayOffer.DAL.genruntimeconfig.cache
+E:\Samir\Master\Last Updated\WePayOffer\WePayOffer\WePayOffer.DAL\obj\Debug\net6.0\ref\WePayOffer.DAL.dll
+D:\We Pay\Branch\WePayOffer\WePayOffer.DAL\bin\Debug\net6.0\WePayOffer.DAL.deps.json
+D:\We Pay\Branch\WePayOffer\WePayOffer.DAL\bin\Debug\net6.0\WePayOffer.DAL.runtimeconfig.json
+D:\We Pay\Branch\WePayOffer\WePayOffer.DAL\bin\Debug\net6.0\WePayOffer.DAL.dll
+D:\We Pay\Branch\WePayOffer\WePayOffer.DAL\bin\Debug\net6.0\WePayOffer.DAL.pdb
+D:\We Pay\Branch\WePayOffer\WePayOffer.DAL\obj\Debug\net6.0\WePayOffer.DAL.csproj.AssemblyReference.cache
+D:\We Pay\Branch\WePayOffer\WePayOffer.DAL\obj\Debug\net6.0\WePayOffer.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\We Pay\Branch\WePayOffer\WePayOffer.DAL\obj\Debug\net6.0\WePayOffer.DAL.AssemblyInfoInputs.cache
+D:\We Pay\Branch\WePayOffer\WePayOffer.DAL\obj\Debug\net6.0\WePayOffer.DAL.AssemblyInfo.cs
+D:\We Pay\Branch\WePayOffer\WePayOffer.DAL\obj\Debug\net6.0\WePayOffer.DAL.csproj.CoreCompileInputs.cache
+D:\We Pay\Branch\WePayOffer\WePayOffer.DAL\obj\Debug\net6.0\WePayOffer.DAL.dll
+D:\We Pay\Branch\WePayOffer\WePayOffer.DAL\obj\Debug\net6.0\refint\WePayOffer.DAL.dll
+D:\We Pay\Branch\WePayOffer\WePayOffer.DAL\obj\Debug\net6.0\WePayOffer.DAL.pdb
+D:\We Pay\Branch\WePayOffer\WePayOffer.DAL\obj\Debug\net6.0\WePayOffer.DAL.genruntimeconfig.cache
+D:\We Pay\Branch\WePayOffer\WePayOffer.DAL\obj\Debug\net6.0\ref\WePayOffer.DAL.dll
+D:\My Work\0We\We Pay Offers\WePay-Daily\WePayOffer.DAL\bin\Debug\net6.0\WePayOffer.DAL.deps.json
+D:\My Work\0We\We Pay Offers\WePay-Daily\WePayOffer.DAL\bin\Debug\net6.0\WePayOffer.DAL.runtimeconfig.json
+D:\My Work\0We\We Pay Offers\WePay-Daily\WePayOffer.DAL\bin\Debug\net6.0\WePayOffer.DAL.dll
+D:\My Work\0We\We Pay Offers\WePay-Daily\WePayOffer.DAL\bin\Debug\net6.0\WePayOffer.DAL.pdb
+D:\My Work\0We\We Pay Offers\WePay-Daily\WePayOffer.DAL\obj\Debug\net6.0\WePayOffer.DAL.csproj.AssemblyReference.cache
+D:\My Work\0We\We Pay Offers\WePay-Daily\WePayOffer.DAL\obj\Debug\net6.0\WePayOffer.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\My Work\0We\We Pay Offers\WePay-Daily\WePayOffer.DAL\obj\Debug\net6.0\WePayOffer.DAL.AssemblyInfoInputs.cache
+D:\My Work\0We\We Pay Offers\WePay-Daily\WePayOffer.DAL\obj\Debug\net6.0\WePayOffer.DAL.AssemblyInfo.cs
+D:\My Work\0We\We Pay Offers\WePay-Daily\WePayOffer.DAL\obj\Debug\net6.0\WePayOffer.DAL.csproj.CoreCompileInputs.cache
+D:\My Work\0We\We Pay Offers\WePay-Daily\WePayOffer.DAL\obj\Debug\net6.0\WePayOffer.DAL.dll
+D:\My Work\0We\We Pay Offers\WePay-Daily\WePayOffer.DAL\obj\Debug\net6.0\refint\WePayOffer.DAL.dll
+D:\My Work\0We\We Pay Offers\WePay-Daily\WePayOffer.DAL\obj\Debug\net6.0\WePayOffer.DAL.pdb
+D:\My Work\0We\We Pay Offers\WePay-Daily\WePayOffer.DAL\obj\Debug\net6.0\WePayOffer.DAL.genruntimeconfig.cache
+D:\My Work\0We\We Pay Offers\WePay-Daily\WePayOffer.DAL\obj\Debug\net6.0\ref\WePayOffer.DAL.dll
+D:\My Work\0We\We Pay Offers\New folder\WePay-Daily\WePayOffer.DAL\bin\Debug\net6.0\WePayOffer.DAL.deps.json
+D:\My Work\0We\We Pay Offers\New folder\WePay-Daily\WePayOffer.DAL\bin\Debug\net6.0\WePayOffer.DAL.runtimeconfig.json
+D:\My Work\0We\We Pay Offers\New folder\WePay-Daily\WePayOffer.DAL\bin\Debug\net6.0\WePayOffer.DAL.dll
+D:\My Work\0We\We Pay Offers\New folder\WePay-Daily\WePayOffer.DAL\bin\Debug\net6.0\WePayOffer.DAL.pdb
+D:\My Work\0We\We Pay Offers\New folder\WePay-Daily\WePayOffer.DAL\obj\Debug\net6.0\WePayOffer.DAL.csproj.AssemblyReference.cache
+D:\My Work\0We\We Pay Offers\New folder\WePay-Daily\WePayOffer.DAL\obj\Debug\net6.0\WePayOffer.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\My Work\0We\We Pay Offers\New folder\WePay-Daily\WePayOffer.DAL\obj\Debug\net6.0\WePayOffer.DAL.AssemblyInfoInputs.cache
+D:\My Work\0We\We Pay Offers\New folder\WePay-Daily\WePayOffer.DAL\obj\Debug\net6.0\WePayOffer.DAL.AssemblyInfo.cs
+D:\My Work\0We\We Pay Offers\New folder\WePay-Daily\WePayOffer.DAL\obj\Debug\net6.0\WePayOffer.DAL.csproj.CoreCompileInputs.cache
+D:\My Work\0We\We Pay Offers\New folder\WePay-Daily\WePayOffer.DAL\obj\Debug\net6.0\WePayOffer.DAL.dll
+D:\My Work\0We\We Pay Offers\New folder\WePay-Daily\WePayOffer.DAL\obj\Debug\net6.0\refint\WePayOffer.DAL.dll
+D:\My Work\0We\We Pay Offers\New folder\WePay-Daily\WePayOffer.DAL\obj\Debug\net6.0\WePayOffer.DAL.pdb
+D:\My Work\0We\We Pay Offers\New folder\WePay-Daily\WePayOffer.DAL\obj\Debug\net6.0\WePayOffer.DAL.genruntimeconfig.cache
+D:\My Work\0We\We Pay Offers\New folder\WePay-Daily\WePayOffer.DAL\obj\Debug\net6.0\ref\WePayOffer.DAL.dll
+D:\My Work\0We\We Pay Offers\We Pay Offer\WePay-Daily\WePayOffer.DAL\bin\Debug\net6.0\WePayOffer.DAL.deps.json
+D:\My Work\0We\We Pay Offers\We Pay Offer\WePay-Daily\WePayOffer.DAL\bin\Debug\net6.0\WePayOffer.DAL.runtimeconfig.json
+D:\My Work\0We\We Pay Offers\We Pay Offer\WePay-Daily\WePayOffer.DAL\bin\Debug\net6.0\WePayOffer.DAL.dll
+D:\My Work\0We\We Pay Offers\We Pay Offer\WePay-Daily\WePayOffer.DAL\bin\Debug\net6.0\WePayOffer.DAL.pdb
+D:\My Work\0We\We Pay Offers\We Pay Offer\WePay-Daily\WePayOffer.DAL\obj\Debug\net6.0\WePayOffer.DAL.csproj.AssemblyReference.cache
+D:\My Work\0We\We Pay Offers\We Pay Offer\WePay-Daily\WePayOffer.DAL\obj\Debug\net6.0\WePayOffer.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\My Work\0We\We Pay Offers\We Pay Offer\WePay-Daily\WePayOffer.DAL\obj\Debug\net6.0\WePayOffer.DAL.AssemblyInfoInputs.cache
+D:\My Work\0We\We Pay Offers\We Pay Offer\WePay-Daily\WePayOffer.DAL\obj\Debug\net6.0\WePayOffer.DAL.AssemblyInfo.cs
+D:\My Work\0We\We Pay Offers\We Pay Offer\WePay-Daily\WePayOffer.DAL\obj\Debug\net6.0\WePayOffer.DAL.csproj.CoreCompileInputs.cache
+D:\My Work\0We\We Pay Offers\We Pay Offer\WePay-Daily\WePayOffer.DAL\obj\Debug\net6.0\WePayOffer.DAL.dll
+D:\My Work\0We\We Pay Offers\We Pay Offer\WePay-Daily\WePayOffer.DAL\obj\Debug\net6.0\refint\WePayOffer.DAL.dll
+D:\My Work\0We\We Pay Offers\We Pay Offer\WePay-Daily\WePayOffer.DAL\obj\Debug\net6.0\WePayOffer.DAL.pdb
+D:\My Work\0We\We Pay Offers\We Pay Offer\WePay-Daily\WePayOffer.DAL\obj\Debug\net6.0\WePayOffer.DAL.genruntimeconfig.cache
+D:\My Work\0We\We Pay Offers\We Pay Offer\WePay-Daily\WePayOffer.DAL\obj\Debug\net6.0\ref\WePayOffer.DAL.dll
+C:\Users\ahmed.r.abdelazim\Desktop\hassan 011\WePay-Daily\WePayOffer.DAL\bin\Debug\net6.0\WePayOffer.DAL.deps.json
+C:\Users\ahmed.r.abdelazim\Desktop\hassan 011\WePay-Daily\WePayOffer.DAL\bin\Debug\net6.0\WePayOffer.DAL.runtimeconfig.json
+C:\Users\ahmed.r.abdelazim\Desktop\hassan 011\WePay-Daily\WePayOffer.DAL\bin\Debug\net6.0\WePayOffer.DAL.dll
+C:\Users\ahmed.r.abdelazim\Desktop\hassan 011\WePay-Daily\WePayOffer.DAL\bin\Debug\net6.0\WePayOffer.DAL.pdb
+C:\Users\ahmed.r.abdelazim\Desktop\hassan 011\WePay-Daily\WePayOffer.DAL\obj\Debug\net6.0\WePayOffer.DAL.csproj.AssemblyReference.cache
+C:\Users\ahmed.r.abdelazim\Desktop\hassan 011\WePay-Daily\WePayOffer.DAL\obj\Debug\net6.0\WePayOffer.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ahmed.r.abdelazim\Desktop\hassan 011\WePay-Daily\WePayOffer.DAL\obj\Debug\net6.0\WePayOffer.DAL.AssemblyInfoInputs.cache
+C:\Users\ahmed.r.abdelazim\Desktop\hassan 011\WePay-Daily\WePayOffer.DAL\obj\Debug\net6.0\WePayOffer.DAL.AssemblyInfo.cs
+C:\Users\ahmed.r.abdelazim\Desktop\hassan 011\WePay-Daily\WePayOffer.DAL\obj\Debug\net6.0\WePayOffer.DAL.csproj.CoreCompileInputs.cache
+C:\Users\ahmed.r.abdelazim\Desktop\hassan 011\WePay-Daily\WePayOffer.DAL\obj\Debug\net6.0\WePayOffer.DAL.dll
+C:\Users\ahmed.r.abdelazim\Desktop\hassan 011\WePay-Daily\WePayOffer.DAL\obj\Debug\net6.0\refint\WePayOffer.DAL.dll
+C:\Users\ahmed.r.abdelazim\Desktop\hassan 011\WePay-Daily\WePayOffer.DAL\obj\Debug\net6.0\WePayOffer.DAL.pdb
+C:\Users\ahmed.r.abdelazim\Desktop\hassan 011\WePay-Daily\WePayOffer.DAL\obj\Debug\net6.0\WePayOffer.DAL.genruntimeconfig.cache
+C:\Users\ahmed.r.abdelazim\Desktop\hassan 011\WePay-Daily\WePayOffer.DAL\obj\Debug\net6.0\ref\WePayOffer.DAL.dll

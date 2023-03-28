@@ -1,0 +1,50 @@
+﻿@{
+    ViewBag.Title = "Upload Bulk";
+}
+
+
+<link rel="stylesheet" href="~/fancy_fileupload.css">
+
+
+<main id="main" class="main">
+
+    <!-- Bread Crumb -->
+    @await Html.PartialAsync("~/Views/Partials/Bulk/UploadBulk/BreadCrumb.cshtml")
+
+    
+    @*Success Message after upload *@
+    <br />
+    @TempData["result"]
+    <br />
+
+
+    <!-- Upload -->
+    @await Html.PartialAsync("~/Views/Partials/Bulk/UploadBulk/Upload.cshtml")
+    
+
+</main>
+
+
+@section UploadFileScripts{
+
+    <script src="~/jquery.ui.widget.js"></script>
+    <script src="~/jquery.iframe-transport.js"></script>
+    <script src="~/jquery.fileupload.js"></script>
+    <script src="~/jquery.fancy-fileupload.js"></script>
+
+    <script>
+        $(function () {
+            $('#demo').FancyFileUpload({
+                maxfilesize: 1000000
+            });
+        });
+    </script>
+        
+@*    @if (ViewBag.Error)
+    {
+        <script>
+            window.alert("Failed To upload file");
+        </script>
+    }*@
+}
+
